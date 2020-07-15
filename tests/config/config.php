@@ -12,7 +12,7 @@ return [
     // ],
     'components' => [
         'db' => [
-            'dsn' => 'sqlite:' . __DIR__ . '/../../../data/test.db',
+            'dsn' => 'sqlite:' . __DIR__ . '/../../data/test.db',
         ],
         'mailer' => [
             'useFileTransport' => true,
