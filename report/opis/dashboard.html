@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\laragon\www\test-eliseev\vendor\opis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">D:\laragon\www\test-eliseev\vendor</a></li>
+         <li class="breadcrumb-item"><a href="index.html">opis</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="closure/src/Analyzer.php.html#16">Opis\Closure\Analyzer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureContext.php.html#14">Opis\Closure\ClosureContext</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#13">Opis\Closure\ClosureStream</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#13">Opis\Closure\ReflectionClosure</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SecurityProvider.php.html#10">Opis\Closure\SecurityProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SelfReference.php.html#15">Opis\Closure\SelfReference</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#18">Opis\Closure\SerializableClosure</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#13">Opis\Closure\ReflectionClosure</a></td><td class="text-right">94556</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#18">Opis\Closure\SerializableClosure</a></td><td class="text-right">20022</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#13">Opis\Closure\ClosureStream</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="closure/src/Analyzer.php.html#16">Opis\Closure\Analyzer</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="closure/src/Analyzer.php.html#25"><abbr title="Opis\Closure\Analyzer::analyze">analyze</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#280"><abbr title="Opis\Closure\SerializableClosure::resolveUseVariables">resolveUseVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SecurityProvider.php.html#27"><abbr title="Opis\Closure\SecurityProvider::sign">sign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SecurityProvider.php.html#38"><abbr title="Opis\Closure\SecurityProvider::verify">verify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SelfReference.php.html#27"><abbr title="Opis\Closure\SelfReference::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#70"><abbr title="Opis\Closure\SerializableClosure::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#84"><abbr title="Opis\Closure\SerializableClosure::getClosure">getClosure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#94"><abbr title="Opis\Closure\SerializableClosure::getReflector">getReflector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#107"><abbr title="Opis\Closure\SerializableClosure::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#117"><abbr title="Opis\Closure\SerializableClosure::serialize">serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#176"><abbr title="Opis\Closure\SerializableClosure::transformUseVariables">transformUseVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#187"><abbr title="Opis\Closure\SerializableClosure::unserialize">unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#292"><abbr title="Opis\Closure\SerializableClosure::from">from</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#819"><abbr title="Opis\Closure\ReflectionClosure::fetchItems">fetchItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#309"><abbr title="Opis\Closure\SerializableClosure::enterContext">enterContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#321"><abbr title="Opis\Closure\SerializableClosure::exitContext">exitContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#331"><abbr title="Opis\Closure\SerializableClosure::setSecretKey">setSecretKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#341"><abbr title="Opis\Closure\SerializableClosure::addSecurityProvider">addSecurityProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#349"><abbr title="Opis\Closure\SerializableClosure::removeSecurityProvider">removeSecurityProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#357"><abbr title="Opis\Closure\SerializableClosure::getSecurityProvider">getSecurityProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#369"><abbr title="Opis\Closure\SerializableClosure::wrapClosures">wrapClosures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#439"><abbr title="Opis\Closure\SerializableClosure::unwrapClosures">unwrapClosures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#501"><abbr title="Opis\Closure\SerializableClosure::createClosure">createClosure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#512"><abbr title="Opis\Closure\SerializableClosure::mapPointers">mapPointers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SecurityProvider.php.html#19"><abbr title="Opis\Closure\SecurityProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#808"><abbr title="Opis\Closure\ReflectionClosure::getStructures">getStructures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/Analyzer.php.html#48"><abbr title="Opis\Closure\Analyzer::determineCode">determineCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#92"><abbr title="Opis\Closure\ClosureStream::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/Analyzer.php.html#57"><abbr title="Opis\Closure\Analyzer::determineContext">determineContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureContext.php.html#29"><abbr title="Opis\Closure\ClosureContext::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#25"><abbr title="Opis\Closure\ClosureStream::stream_open">stream_open</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#32"><abbr title="Opis\Closure\ClosureStream::stream_read">stream_read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#39"><abbr title="Opis\Closure\ClosureStream::stream_eof">stream_eof</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#44"><abbr title="Opis\Closure\ClosureStream::stream_set_option">stream_set_option</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#49"><abbr title="Opis\Closure\ClosureStream::stream_stat">stream_stat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#56"><abbr title="Opis\Closure\ClosureStream::url_stat">url_stat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#63"><abbr title="Opis\Closure\ClosureStream::stream_seek">stream_seek</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#87"><abbr title="Opis\Closure\ClosureStream::stream_tell">stream_tell</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#37"><abbr title="Opis\Closure\ReflectionClosure::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#794"><abbr title="Opis\Closure\ReflectionClosure::getConstants">getConstants</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#46"><abbr title="Opis\Closure\ReflectionClosure::isStatic">isStatic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#55"><abbr title="Opis\Closure\ReflectionClosure::isShortClosure">isShortClosure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#71"><abbr title="Opis\Closure\ReflectionClosure::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#636"><abbr title="Opis\Closure\ReflectionClosure::getUseVariables">getUseVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#675"><abbr title="Opis\Closure\ReflectionClosure::isBindingRequired">isBindingRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#687"><abbr title="Opis\Closure\ReflectionClosure::isScopeRequired">isScopeRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#699"><abbr title="Opis\Closure\ReflectionClosure::getHashedFileName">getHashedFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#711"><abbr title="Opis\Closure\ReflectionClosure::getFileTokens">getFileTokens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#725"><abbr title="Opis\Closure\ReflectionClosure::getTokens">getTokens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#766"><abbr title="Opis\Closure\ReflectionClosure::getClasses">getClasses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#780"><abbr title="Opis\Closure\ReflectionClosure::getFunctions">getFunctions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#586"><abbr title="Opis\Closure\SerializableClosure::mapByReference">mapByReference</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#71"><abbr title="Opis\Closure\ReflectionClosure::getCode">getCode</abbr></a></td><td class="text-right">42642</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#819"><abbr title="Opis\Closure\ReflectionClosure::fetchItems">fetchItems</abbr></a></td><td class="text-right">3782</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#512"><abbr title="Opis\Closure\SerializableClosure::mapPointers">mapPointers</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#586"><abbr title="Opis\Closure\SerializableClosure::mapByReference">mapByReference</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#369"><abbr title="Opis\Closure\SerializableClosure::wrapClosures">wrapClosures</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#439"><abbr title="Opis\Closure\SerializableClosure::unwrapClosures">unwrapClosures</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#187"><abbr title="Opis\Closure\SerializableClosure::unserialize">unserialize</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#636"><abbr title="Opis\Closure\ReflectionClosure::getUseVariables">getUseVariables</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#117"><abbr title="Opis\Closure\SerializableClosure::serialize">serialize</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#725"><abbr title="Opis\Closure\ReflectionClosure::getTokens">getTokens</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#63"><abbr title="Opis\Closure\ClosureStream::stream_seek">stream_seek</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#55"><abbr title="Opis\Closure\ReflectionClosure::isShortClosure">isShortClosure</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#321"><abbr title="Opis\Closure\SerializableClosure::exitContext">exitContext</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#292"><abbr title="Opis\Closure\SerializableClosure::from">from</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#94"><abbr title="Opis\Closure\SerializableClosure::getReflector">getReflector</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#309"><abbr title="Opis\Closure\SerializableClosure::enterContext">enterContext</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#331"><abbr title="Opis\Closure\SerializableClosure::setSecretKey">setSecretKey</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/Analyzer.php.html#25"><abbr title="Opis\Closure\Analyzer::analyze">analyze</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/SerializableClosure.php.html#70"><abbr title="Opis\Closure\SerializableClosure::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#808"><abbr title="Opis\Closure\ReflectionClosure::getStructures">getStructures</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#780"><abbr title="Opis\Closure\ReflectionClosure::getFunctions">getFunctions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#766"><abbr title="Opis\Closure\ReflectionClosure::getClasses">getClasses</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#711"><abbr title="Opis\Closure\ReflectionClosure::getFileTokens">getFileTokens</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#699"><abbr title="Opis\Closure\ReflectionClosure::getHashedFileName">getHashedFileName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#687"><abbr title="Opis\Closure\ReflectionClosure::isScopeRequired">isScopeRequired</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#675"><abbr title="Opis\Closure\ReflectionClosure::isBindingRequired">isBindingRequired</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#46"><abbr title="Opis\Closure\ReflectionClosure::isStatic">isStatic</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ClosureStream.php.html#92"><abbr title="Opis\Closure\ClosureStream::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="closure/src/ReflectionClosure.php.html#794"><abbr title="Opis\Closure\ReflectionClosure::getConstants">getConstants</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.11</a> with <a href="https://xdebug.org/">Xdebug 2.9.6</a> and <a href="https://phpunit.de/">PHPUnit 8.5.8</a> at Thu Jul 16 12:46:45 UTC 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"closure\/src\/Analyzer.php.html#16\">Opis\\Closure\\Analyzer<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureContext.php.html#14\">Opis\\Closure\\ClosureContext<\/a>"],[100,0,"<a href=\"closure\/src\/ClosureScope.php.html#14\">Opis\\Closure\\ClosureScope<\/a>"],[0,15,"<a href=\"closure\/src\/ClosureStream.php.html#13\">Opis\\Closure\\ClosureStream<\/a>"],[0,307,"<a href=\"closure\/src\/ReflectionClosure.php.html#13\">Opis\\Closure\\ReflectionClosure<\/a>"],[100,0,"<a href=\"closure\/src\/SecurityException.php.html#15\">Opis\\Closure\\SecurityException<\/a>"],[0,3,"<a href=\"closure\/src\/SecurityProvider.php.html#10\">Opis\\Closure\\SecurityProvider<\/a>"],[0,1,"<a href=\"closure\/src\/SelfReference.php.html#15\">Opis\\Closure\\SelfReference<\/a>"],[0,141,"<a href=\"closure\/src\/SerializableClosure.php.html#18\">Opis\\Closure\\SerializableClosure<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"closure\/src\/Analyzer.php.html#25\">Opis\\Closure\\Analyzer::analyze<\/a>"],[0,1,"<a href=\"closure\/src\/Analyzer.php.html#48\">Opis\\Closure\\Analyzer::determineCode<\/a>"],[0,1,"<a href=\"closure\/src\/Analyzer.php.html#57\">Opis\\Closure\\Analyzer::determineContext<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureContext.php.html#29\">Opis\\Closure\\ClosureContext::__construct<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#25\">Opis\\Closure\\ClosureStream::stream_open<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#32\">Opis\\Closure\\ClosureStream::stream_read<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#39\">Opis\\Closure\\ClosureStream::stream_eof<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#44\">Opis\\Closure\\ClosureStream::stream_set_option<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#49\">Opis\\Closure\\ClosureStream::stream_stat<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#56\">Opis\\Closure\\ClosureStream::url_stat<\/a>"],[0,6,"<a href=\"closure\/src\/ClosureStream.php.html#63\">Opis\\Closure\\ClosureStream::stream_seek<\/a>"],[0,1,"<a href=\"closure\/src\/ClosureStream.php.html#87\">Opis\\Closure\\ClosureStream::stream_tell<\/a>"],[0,2,"<a href=\"closure\/src\/ClosureStream.php.html#92\">Opis\\Closure\\ClosureStream::register<\/a>"],[0,1,"<a href=\"closure\/src\/ReflectionClosure.php.html#37\">Opis\\Closure\\ReflectionClosure::__construct<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#46\">Opis\\Closure\\ReflectionClosure::isStatic<\/a>"],[0,3,"<a href=\"closure\/src\/ReflectionClosure.php.html#55\">Opis\\Closure\\ReflectionClosure::isShortClosure<\/a>"],[0,206,"<a href=\"closure\/src\/ReflectionClosure.php.html#71\">Opis\\Closure\\ReflectionClosure::getCode<\/a>"],[0,11,"<a href=\"closure\/src\/ReflectionClosure.php.html#636\">Opis\\Closure\\ReflectionClosure::getUseVariables<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#675\">Opis\\Closure\\ReflectionClosure::isBindingRequired<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#687\">Opis\\Closure\\ReflectionClosure::isScopeRequired<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#699\">Opis\\Closure\\ReflectionClosure::getHashedFileName<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#711\">Opis\\Closure\\ReflectionClosure::getFileTokens<\/a>"],[0,7,"<a href=\"closure\/src\/ReflectionClosure.php.html#725\">Opis\\Closure\\ReflectionClosure::getTokens<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#766\">Opis\\Closure\\ReflectionClosure::getClasses<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#780\">Opis\\Closure\\ReflectionClosure::getFunctions<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#794\">Opis\\Closure\\ReflectionClosure::getConstants<\/a>"],[0,2,"<a href=\"closure\/src\/ReflectionClosure.php.html#808\">Opis\\Closure\\ReflectionClosure::getStructures<\/a>"],[0,61,"<a href=\"closure\/src\/ReflectionClosure.php.html#819\">Opis\\Closure\\ReflectionClosure::fetchItems<\/a>"],[0,1,"<a href=\"closure\/src\/SecurityProvider.php.html#19\">Opis\\Closure\\SecurityProvider::__construct<\/a>"],[0,1,"<a href=\"closure\/src\/SecurityProvider.php.html#27\">Opis\\Closure\\SecurityProvider::sign<\/a>"],[0,1,"<a href=\"closure\/src\/SecurityProvider.php.html#38\">Opis\\Closure\\SecurityProvider::verify<\/a>"],[0,1,"<a href=\"closure\/src\/SelfReference.php.html#27\">Opis\\Closure\\SelfReference::__construct<\/a>"],[0,2,"<a href=\"closure\/src\/SerializableClosure.php.html#70\">Opis\\Closure\\SerializableClosure::__construct<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#84\">Opis\\Closure\\SerializableClosure::getClosure<\/a>"],[0,2,"<a href=\"closure\/src\/SerializableClosure.php.html#94\">Opis\\Closure\\SerializableClosure::getReflector<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#107\">Opis\\Closure\\SerializableClosure::__invoke<\/a>"],[0,8,"<a href=\"closure\/src\/SerializableClosure.php.html#117\">Opis\\Closure\\SerializableClosure::serialize<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#176\">Opis\\Closure\\SerializableClosure::transformUseVariables<\/a>"],[0,17,"<a href=\"closure\/src\/SerializableClosure.php.html#187\">Opis\\Closure\\SerializableClosure::unserialize<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#280\">Opis\\Closure\\SerializableClosure::resolveUseVariables<\/a>"],[0,3,"<a href=\"closure\/src\/SerializableClosure.php.html#292\">Opis\\Closure\\SerializableClosure::from<\/a>"],[0,2,"<a href=\"closure\/src\/SerializableClosure.php.html#309\">Opis\\Closure\\SerializableClosure::enterContext<\/a>"],[0,3,"<a href=\"closure\/src\/SerializableClosure.php.html#321\">Opis\\Closure\\SerializableClosure::exitContext<\/a>"],[0,2,"<a href=\"closure\/src\/SerializableClosure.php.html#331\">Opis\\Closure\\SerializableClosure::setSecretKey<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#341\">Opis\\Closure\\SerializableClosure::addSecurityProvider<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#349\">Opis\\Closure\\SerializableClosure::removeSecurityProvider<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#357\">Opis\\Closure\\SerializableClosure::getSecurityProvider<\/a>"],[0,21,"<a href=\"closure\/src\/SerializableClosure.php.html#369\">Opis\\Closure\\SerializableClosure::wrapClosures<\/a>"],[0,20,"<a href=\"closure\/src\/SerializableClosure.php.html#439\">Opis\\Closure\\SerializableClosure::unwrapClosures<\/a>"],[0,1,"<a href=\"closure\/src\/SerializableClosure.php.html#501\">Opis\\Closure\\SerializableClosure::createClosure<\/a>"],[0,30,"<a href=\"closure\/src\/SerializableClosure.php.html#512\">Opis\\Closure\\SerializableClosure::mapPointers<\/a>"],[0,23,"<a href=\"closure\/src\/SerializableClosure.php.html#586\">Opis\\Closure\\SerializableClosure::mapByReference<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\laragon\www\test-eliseev\vendor\yiisoft\yii2-debug\src\panels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">D:\laragon\www\test-eliseev\vendor</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">yiisoft</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">yii2-debug</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">panels</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetPanel.php.html#22">yii\debug\panels\AssetPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#22">yii\debug\panels\ConfigPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#26">yii\debug\panels\DbPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#24">yii\debug\panels\DumpPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#23">yii\debug\panels\EventPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#21">yii\debug\panels\LogPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#25">yii\debug\panels\MailPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#21">yii\debug\panels\ProfilingPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#20">yii\debug\panels\RequestPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#25">yii\debug\panels\RouterPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#29">yii\debug\panels\TimelinePanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#35">yii\debug\panels\UserPanel</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserPanel.php.html#35">yii\debug\panels\UserPanel</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="DbPanel.php.html#26">yii\debug\panels\DbPanel</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#29">yii\debug\panels\TimelinePanel</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="RequestPanel.php.html#20">yii\debug\panels\RequestPanel</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="AssetPanel.php.html#22">yii\debug\panels\AssetPanel</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="MailPanel.php.html#25">yii\debug\panels\MailPanel</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="DumpPanel.php.html#24">yii\debug\panels\DumpPanel</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="LogPanel.php.html#21">yii\debug\panels\LogPanel</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="EventPanel.php.html#23">yii\debug\panels\EventPanel</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="RouterPanel.php.html#25">yii\debug\panels\RouterPanel</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#21">yii\debug\panels\ProfilingPanel</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#22">yii\debug\panels\ConfigPanel</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetPanel.php.html#27"><abbr title="yii\debug\panels\AssetPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#57"><abbr title="yii\debug\panels\RequestPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#89"><abbr title="yii\debug\panels\TimelinePanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#78"><abbr title="yii\debug\panels\TimelinePanel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#85"><abbr title="yii\debug\panels\RouterPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#77"><abbr title="yii\debug\panels\RouterPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#69"><abbr title="yii\debug\panels\RouterPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#61"><abbr title="yii\debug\panels\RouterPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#53"><abbr title="yii\debug\panels\RouterPanel::getCategories">getCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouterPanel.php.html#41"><abbr title="yii\debug\panels\RouterPanel::setCategories">setCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#131"><abbr title="yii\debug\panels\RequestPanel::getFlashes">getFlashes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#49"><abbr title="yii\debug\panels\RequestPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#112"><abbr title="yii\debug\panels\TimelinePanel::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#41"><abbr title="yii\debug\panels\RequestPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequestPanel.php.html#33"><abbr title="yii\debug\panels\RequestPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#83"><abbr title="yii\debug\panels\ProfilingPanel::getModels">getModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#69"><abbr title="yii\debug\panels\ProfilingPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#52"><abbr title="yii\debug\panels\ProfilingPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#40"><abbr title="yii\debug\panels\ProfilingPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#32"><abbr title="yii\debug\panels\ProfilingPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#158"><abbr title="yii\debug\panels\MailPanel::convertParams">convertParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#144"><abbr title="yii\debug\panels\MailPanel::getMessagesFileName">getMessagesFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#135"><abbr title="yii\debug\panels\MailPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#97"><abbr title="yii\debug\panels\TimelinePanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#143"><abbr title="yii\debug\panels\TimelinePanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#107"><abbr title="yii\debug\panels\MailPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#139"><abbr title="yii\debug\panels\UserPanel::getUsersFilterModel">getUsersFilterModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#312"><abbr title="yii\debug\panels\UserPanel::dataToString">dataToString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#296"><abbr title="yii\debug\panels\UserPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#226"><abbr title="yii\debug\panels\UserPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#218"><abbr title="yii\debug\panels\UserPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#210"><abbr title="yii\debug\panels\UserPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#202"><abbr title="yii\debug\panels\UserPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#170"><abbr title="yii\debug\panels\UserPanel::canSwitchUser">canSwitchUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#157"><abbr title="yii\debug\panels\UserPanel::canSearchUsers">canSearchUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#148"><abbr title="yii\debug\panels\UserPanel::getUserDataProvider">getUserDataProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#118"><abbr title="yii\debug\panels\UserPanel::addAccessRules">addAccessRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#157"><abbr title="yii\debug\panels\TimelinePanel::setColors">setColors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#107"><abbr title="yii\debug\panels\UserPanel::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#81"><abbr title="yii\debug\panels\UserPanel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#240"><abbr title="yii\debug\panels\TimelinePanel::getModels">getModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#225"><abbr title="yii\debug\panels\TimelinePanel::getSvg">getSvg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#215"><abbr title="yii\debug\panels\TimelinePanel::getMemory">getMemory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#205"><abbr title="yii\debug\panels\TimelinePanel::getDuration">getDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#196"><abbr title="yii\debug\panels\TimelinePanel::getStart">getStart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#187"><abbr title="yii\debug\panels\TimelinePanel::getSvgOptions">getSvgOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#176"><abbr title="yii\debug\panels\TimelinePanel::setSvgOptions">setSvgOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#168"><abbr title="yii\debug\panels\TimelinePanel::getColors">getColors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#118"><abbr title="yii\debug\panels\MailPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#99"><abbr title="yii\debug\panels\MailPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#35"><abbr title="yii\debug\panels\AssetPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#66"><abbr title="yii\debug\panels\DbPanel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#187"><abbr title="yii\debug\panels\DbPanel::getModels">getModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#171"><abbr title="yii\debug\panels\DbPanel::getTotalQueryTime">getTotalQueryTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#160"><abbr title="yii\debug\panels\DbPanel::getProfileLogs">getProfileLogs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#150"><abbr title="yii\debug\panels\DbPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#138"><abbr title="yii\debug\panels\DbPanel::calculateTimings">calculateTimings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#111"><abbr title="yii\debug\panels\DbPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#93"><abbr title="yii\debug\panels\DbPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#85"><abbr title="yii\debug\panels\DbPanel::getSummaryName">getSummaryName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#77"><abbr title="yii\debug\panels\DbPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#87"><abbr title="yii\debug\panels\ConfigPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#232"><abbr title="yii\debug\panels\DbPanel::sumDuplicateQueries">sumDuplicateQueries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#69"><abbr title="yii\debug\panels\ConfigPanel::getPhpInfo">getPhpInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#53"><abbr title="yii\debug\panels\ConfigPanel::getExtensions">getExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#43"><abbr title="yii\debug\panels\ConfigPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#35"><abbr title="yii\debug\panels\ConfigPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#27"><abbr title="yii\debug\panels\ConfigPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#124"><abbr title="yii\debug\panels\AssetPanel::formatOptions">formatOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#93"><abbr title="yii\debug\panels\AssetPanel::format">format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#76"><abbr title="yii\debug\panels\AssetPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#51"><abbr title="yii\debug\panels\AssetPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetPanel.php.html#43"><abbr title="yii\debug\panels\AssetPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#218"><abbr title="yii\debug\panels\DbPanel::countDuplicateQuery">countDuplicateQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#251"><abbr title="yii\debug\panels\DbPanel::getQueryType">getQueryType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailPanel.php.html#41"><abbr title="yii\debug\panels\MailPanel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#34"><abbr title="yii\debug\panels\EventPanel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#82"><abbr title="yii\debug\panels\LogPanel::getModels">getModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#63"><abbr title="yii\debug\panels\LogPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#48"><abbr title="yii\debug\panels\LogPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#40"><abbr title="yii\debug\panels\LogPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogPanel.php.html#32"><abbr title="yii\debug\panels\LogPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#97"><abbr title="yii\debug\panels\EventPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#89"><abbr title="yii\debug\panels\EventPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#74"><abbr title="yii\debug\panels\EventPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#63"><abbr title="yii\debug\panels\EventPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventPanel.php.html#55"><abbr title="yii\debug\panels\EventPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#134"><abbr title="yii\debug\panels\DumpPanel::getModels">getModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#265"><abbr title="yii\debug\panels\DbPanel::isQueryCountCritical">isQueryCountCritical</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#111"><abbr title="yii\debug\panels\DumpPanel::varDump">varDump</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#86"><abbr title="yii\debug\panels\DumpPanel::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#71"><abbr title="yii\debug\panels\DumpPanel::getDetail">getDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#63"><abbr title="yii\debug\panels\DumpPanel::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DumpPanel.php.html#55"><abbr title="yii\debug\panels\DumpPanel::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#344"><abbr title="yii\debug\panels\DbPanel::getDb">getDb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#332"><abbr title="yii\debug\panels\DbPanel::canBeExplained">canBeExplained</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#307"><abbr title="yii\debug\panels\DbPanel::hasExplain">hasExplain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#291"><abbr title="yii\debug\panels\DbPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbPanel.php.html#276"><abbr title="yii\debug\panels\DbPanel::getTypes">getTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserPanel.php.html#327"><abbr title="yii\debug\panels\UserPanel::identityData">identityData</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RequestPanel.php.html#57"><abbr title="yii\debug\panels\RequestPanel::save">save</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="UserPanel.php.html#226"><abbr title="yii\debug\panels\UserPanel::save">save</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="UserPanel.php.html#81"><abbr title="yii\debug\panels\UserPanel::init">init</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#112"><abbr title="yii\debug\panels\TimelinePanel::load">load</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="AssetPanel.php.html#51"><abbr title="yii\debug\panels\AssetPanel::save">save</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="DbPanel.php.html#307"><abbr title="yii\debug\panels\DbPanel::hasExplain">hasExplain</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UserPanel.php.html#170"><abbr title="yii\debug\panels\UserPanel::canSwitchUser">canSwitchUser</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="RequestPanel.php.html#131"><abbr title="yii\debug\panels\RequestPanel::getFlashes">getFlashes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="LogPanel.php.html#82"><abbr title="yii\debug\panels\LogPanel::getModels">getModels</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="MailPanel.php.html#41"><abbr title="yii\debug\panels\MailPanel::init">init</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#240"><abbr title="yii\debug\panels\TimelinePanel::getModels">getModels</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RouterPanel.php.html#85"><abbr title="yii\debug\panels\RouterPanel::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DumpPanel.php.html#86"><abbr title="yii\debug\panels\DumpPanel::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ProfilingPanel.php.html#83"><abbr title="yii\debug\panels\ProfilingPanel::getModels">getModels</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DumpPanel.php.html#134"><abbr title="yii\debug\panels\DumpPanel::getModels">getModels</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssetPanel.php.html#76"><abbr title="yii\debug\panels\AssetPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbPanel.php.html#138"><abbr title="yii\debug\panels\DbPanel::calculateTimings">calculateTimings</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserPanel.php.html#157"><abbr title="yii\debug\panels\UserPanel::canSearchUsers">canSearchUsers</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssetPanel.php.html#124"><abbr title="yii\debug\panels\AssetPanel::formatOptions">formatOptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbPanel.php.html#187"><abbr title="yii\debug\panels\DbPanel::getModels">getModels</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EventPanel.php.html#97"><abbr title="yii\debug\panels\EventPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EventPanel.php.html#34"><abbr title="yii\debug\panels\EventPanel::init">init</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DumpPanel.php.html#111"><abbr title="yii\debug\panels\DumpPanel::varDump">varDump</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbPanel.php.html#232"><abbr title="yii\debug\panels\DbPanel::sumDuplicateQueries">sumDuplicateQueries</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#225"><abbr title="yii\debug\panels\TimelinePanel::getSvg">getSvg</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserPanel.php.html#296"><abbr title="yii\debug\panels\UserPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssetPanel.php.html#93"><abbr title="yii\debug\panels\AssetPanel::format">format</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserPanel.php.html#107"><abbr title="yii\debug\panels\UserPanel::getUser">getUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigPanel.php.html#53"><abbr title="yii\debug\panels\ConfigPanel::getExtensions">getExtensions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserPanel.php.html#312"><abbr title="yii\debug\panels\UserPanel::dataToString">dataToString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbPanel.php.html#251"><abbr title="yii\debug\panels\DbPanel::getQueryType">getQueryType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbPanel.php.html#171"><abbr title="yii\debug\panels\DbPanel::getTotalQueryTime">getTotalQueryTime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#176"><abbr title="yii\debug\panels\TimelinePanel::setSvgOptions">setSvgOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbPanel.php.html#111"><abbr title="yii\debug\panels\DbPanel::getDetail">getDetail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TimelinePanel.php.html#78"><abbr title="yii\debug\panels\TimelinePanel::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RouterPanel.php.html#41"><abbr title="yii\debug\panels\RouterPanel::setCategories">setCategories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbPanel.php.html#265"><abbr title="yii\debug\panels\DbPanel::isQueryCountCritical">isQueryCountCritical</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailPanel.php.html#158"><abbr title="yii\debug\panels\MailPanel::convertParams">convertParams</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailPanel.php.html#144"><abbr title="yii\debug\panels\MailPanel::getMessagesFileName">getMessagesFileName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailPanel.php.html#107"><abbr title="yii\debug\panels\MailPanel::getSummary">getSummary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LogPanel.php.html#63"><abbr title="yii\debug\panels\LogPanel::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbPanel.php.html#291"><abbr title="yii\debug\panels\DbPanel::isEnabled">isEnabled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserPanel.php.html#327"><abbr title="yii\debug\panels\UserPanel::identityData">identityData</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.11</a> with <a href="https://xdebug.org/">Xdebug 2.9.6</a> and <a href="https://phpunit.de/">PHPUnit 8.5.8</a> at Thu Jul 16 12:46:45 UTC 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([100,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,19,"<a href=\"AssetPanel.php.html#22\">yii\\debug\\panels\\AssetPanel<\/a>"],[0,7,"<a href=\"ConfigPanel.php.html#22\">yii\\debug\\panels\\ConfigPanel<\/a>"],[0,35,"<a href=\"DbPanel.php.html#26\">yii\\debug\\panels\\DbPanel<\/a>"],[0,14,"<a href=\"DumpPanel.php.html#24\">yii\\debug\\panels\\DumpPanel<\/a>"],[0,10,"<a href=\"EventPanel.php.html#23\">yii\\debug\\panels\\EventPanel<\/a>"],[0,11,"<a href=\"LogPanel.php.html#21\">yii\\debug\\panels\\LogPanel<\/a>"],[0,15,"<a href=\"MailPanel.php.html#25\">yii\\debug\\panels\\MailPanel<\/a>"],[0,8,"<a href=\"ProfilingPanel.php.html#21\">yii\\debug\\panels\\ProfilingPanel<\/a>"],[0,23,"<a href=\"RequestPanel.php.html#20\">yii\\debug\\panels\\RequestPanel<\/a>"],[0,10,"<a href=\"RouterPanel.php.html#25\">yii\\debug\\panels\\RouterPanel<\/a>"],[0,28,"<a href=\"TimelinePanel.php.html#29\">yii\\debug\\panels\\TimelinePanel<\/a>"],[0,41,"<a href=\"UserPanel.php.html#35\">yii\\debug\\panels\\UserPanel<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AssetPanel.php.html#27\">yii\\debug\\panels\\AssetPanel::getName<\/a>"],[0,1,"<a href=\"AssetPanel.php.html#35\">yii\\debug\\panels\\AssetPanel::getSummary<\/a>"],[0,1,"<a href=\"AssetPanel.php.html#43\">yii\\debug\\panels\\AssetPanel::getDetail<\/a>"],[0,8,"<a href=\"AssetPanel.php.html#51\">yii\\debug\\panels\\AssetPanel::save<\/a>"],[0,3,"<a href=\"AssetPanel.php.html#76\">yii\\debug\\panels\\AssetPanel::isEnabled<\/a>"],[0,2,"<a href=\"AssetPanel.php.html#93\">yii\\debug\\panels\\AssetPanel::format<\/a>"],[0,3,"<a href=\"AssetPanel.php.html#124\">yii\\debug\\panels\\AssetPanel::formatOptions<\/a>"],[0,1,"<a href=\"ConfigPanel.php.html#27\">yii\\debug\\panels\\ConfigPanel::getName<\/a>"],[0,1,"<a href=\"ConfigPanel.php.html#35\">yii\\debug\\panels\\ConfigPanel::getSummary<\/a>"],[0,1,"<a href=\"ConfigPanel.php.html#43\">yii\\debug\\panels\\ConfigPanel::getDetail<\/a>"],[0,2,"<a href=\"ConfigPanel.php.html#53\">yii\\debug\\panels\\ConfigPanel::getExtensions<\/a>"],[0,1,"<a href=\"ConfigPanel.php.html#69\">yii\\debug\\panels\\ConfigPanel::getPhpInfo<\/a>"],[0,1,"<a href=\"ConfigPanel.php.html#87\">yii\\debug\\panels\\ConfigPanel::save<\/a>"],[0,1,"<a href=\"DbPanel.php.html#66\">yii\\debug\\panels\\DbPanel::init<\/a>"],[0,1,"<a href=\"DbPanel.php.html#77\">yii\\debug\\panels\\DbPanel::getName<\/a>"],[0,1,"<a href=\"DbPanel.php.html#85\">yii\\debug\\panels\\DbPanel::getSummaryName<\/a>"],[0,1,"<a href=\"DbPanel.php.html#93\">yii\\debug\\panels\\DbPanel::getSummary<\/a>"],[0,2,"<a href=\"DbPanel.php.html#111\">yii\\debug\\panels\\DbPanel::getDetail<\/a>"],[0,3,"<a href=\"DbPanel.php.html#138\">yii\\debug\\panels\\DbPanel::calculateTimings<\/a>"],[0,1,"<a href=\"DbPanel.php.html#150\">yii\\debug\\panels\\DbPanel::save<\/a>"],[0,1,"<a href=\"DbPanel.php.html#160\">yii\\debug\\panels\\DbPanel::getProfileLogs<\/a>"],[0,2,"<a href=\"DbPanel.php.html#171\">yii\\debug\\panels\\DbPanel::getTotalQueryTime<\/a>"],[0,3,"<a href=\"DbPanel.php.html#187\">yii\\debug\\panels\\DbPanel::getModels<\/a>"],[0,1,"<a href=\"DbPanel.php.html#218\">yii\\debug\\panels\\DbPanel::countDuplicateQuery<\/a>"],[0,3,"<a href=\"DbPanel.php.html#232\">yii\\debug\\panels\\DbPanel::sumDuplicateQueries<\/a>"],[0,2,"<a href=\"DbPanel.php.html#251\">yii\\debug\\panels\\DbPanel::getQueryType<\/a>"],[0,2,"<a href=\"DbPanel.php.html#265\">yii\\debug\\panels\\DbPanel::isQueryCountCritical<\/a>"],[0,1,"<a href=\"DbPanel.php.html#276\">yii\\debug\\panels\\DbPanel::getTypes<\/a>"],[0,2,"<a href=\"DbPanel.php.html#291\">yii\\debug\\panels\\DbPanel::isEnabled<\/a>"],[0,6,"<a href=\"DbPanel.php.html#307\">yii\\debug\\panels\\DbPanel::hasExplain<\/a>"],[0,1,"<a href=\"DbPanel.php.html#332\">yii\\debug\\panels\\DbPanel::canBeExplained<\/a>"],[0,1,"<a href=\"DbPanel.php.html#344\">yii\\debug\\panels\\DbPanel::getDb<\/a>"],[0,1,"<a href=\"DumpPanel.php.html#55\">yii\\debug\\panels\\DumpPanel::getName<\/a>"],[0,1,"<a href=\"DumpPanel.php.html#63\">yii\\debug\\panels\\DumpPanel::getSummary<\/a>"],[0,1,"<a href=\"DumpPanel.php.html#71\">yii\\debug\\panels\\DumpPanel::getDetail<\/a>"],[0,4,"<a href=\"DumpPanel.php.html#86\">yii\\debug\\panels\\DumpPanel::save<\/a>"],[0,3,"<a href=\"DumpPanel.php.html#111\">yii\\debug\\panels\\DumpPanel::varDump<\/a>"],[0,4,"<a href=\"DumpPanel.php.html#134\">yii\\debug\\panels\\DumpPanel::getModels<\/a>"],[0,3,"<a href=\"EventPanel.php.html#34\">yii\\debug\\panels\\EventPanel::init<\/a>"],[0,1,"<a href=\"EventPanel.php.html#55\">yii\\debug\\panels\\EventPanel::getName<\/a>"],[0,1,"<a href=\"EventPanel.php.html#63\">yii\\debug\\panels\\EventPanel::getSummary<\/a>"],[0,1,"<a href=\"EventPanel.php.html#74\">yii\\debug\\panels\\EventPanel::getDetail<\/a>"],[0,1,"<a href=\"EventPanel.php.html#89\">yii\\debug\\panels\\EventPanel::save<\/a>"],[0,3,"<a href=\"EventPanel.php.html#97\">yii\\debug\\panels\\EventPanel::isEnabled<\/a>"],[0,1,"<a href=\"LogPanel.php.html#32\">yii\\debug\\panels\\LogPanel::getName<\/a>"],[0,1,"<a href=\"LogPanel.php.html#40\">yii\\debug\\panels\\LogPanel::getSummary<\/a>"],[0,1,"<a href=\"LogPanel.php.html#48\">yii\\debug\\panels\\LogPanel::getDetail<\/a>"],[0,2,"<a href=\"LogPanel.php.html#63\">yii\\debug\\panels\\LogPanel::save<\/a>"],[0,6,"<a href=\"LogPanel.php.html#82\">yii\\debug\\panels\\LogPanel::getModels<\/a>"],[0,6,"<a href=\"MailPanel.php.html#41\">yii\\debug\\panels\\MailPanel::init<\/a>"],[0,1,"<a href=\"MailPanel.php.html#99\">yii\\debug\\panels\\MailPanel::getName<\/a>"],[0,2,"<a href=\"MailPanel.php.html#107\">yii\\debug\\panels\\MailPanel::getSummary<\/a>"],[0,1,"<a href=\"MailPanel.php.html#118\">yii\\debug\\panels\\MailPanel::getDetail<\/a>"],[0,1,"<a href=\"MailPanel.php.html#135\">yii\\debug\\panels\\MailPanel::save<\/a>"],[0,2,"<a href=\"MailPanel.php.html#144\">yii\\debug\\panels\\MailPanel::getMessagesFileName<\/a>"],[0,2,"<a href=\"MailPanel.php.html#158\">yii\\debug\\panels\\MailPanel::convertParams<\/a>"],[0,1,"<a href=\"ProfilingPanel.php.html#32\">yii\\debug\\panels\\ProfilingPanel::getName<\/a>"],[0,1,"<a href=\"ProfilingPanel.php.html#40\">yii\\debug\\panels\\ProfilingPanel::getSummary<\/a>"],[0,1,"<a href=\"ProfilingPanel.php.html#52\">yii\\debug\\panels\\ProfilingPanel::getDetail<\/a>"],[0,1,"<a href=\"ProfilingPanel.php.html#69\">yii\\debug\\panels\\ProfilingPanel::save<\/a>"],[0,4,"<a href=\"ProfilingPanel.php.html#83\">yii\\debug\\panels\\ProfilingPanel::getModels<\/a>"],[0,1,"<a href=\"RequestPanel.php.html#33\">yii\\debug\\panels\\RequestPanel::getName<\/a>"],[0,1,"<a href=\"RequestPanel.php.html#41\">yii\\debug\\panels\\RequestPanel::getSummary<\/a>"],[0,1,"<a href=\"RequestPanel.php.html#49\">yii\\debug\\panels\\RequestPanel::getDetail<\/a>"],[0,14,"<a href=\"RequestPanel.php.html#57\">yii\\debug\\panels\\RequestPanel::save<\/a>"],[0,6,"<a href=\"RequestPanel.php.html#131\">yii\\debug\\panels\\RequestPanel::getFlashes<\/a>"],[0,2,"<a href=\"RouterPanel.php.html#41\">yii\\debug\\panels\\RouterPanel::setCategories<\/a>"],[0,1,"<a href=\"RouterPanel.php.html#53\">yii\\debug\\panels\\RouterPanel::getCategories<\/a>"],[0,1,"<a href=\"RouterPanel.php.html#61\">yii\\debug\\panels\\RouterPanel::getName<\/a>"],[0,1,"<a href=\"RouterPanel.php.html#69\">yii\\debug\\panels\\RouterPanel::getSummary<\/a>"],[0,1,"<a href=\"RouterPanel.php.html#77\">yii\\debug\\panels\\RouterPanel::getDetail<\/a>"],[0,4,"<a href=\"RouterPanel.php.html#85\">yii\\debug\\panels\\RouterPanel::save<\/a>"],[0,2,"<a href=\"TimelinePanel.php.html#78\">yii\\debug\\panels\\TimelinePanel::init<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#89\">yii\\debug\\panels\\TimelinePanel::getName<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#97\">yii\\debug\\panels\\TimelinePanel::getDetail<\/a>"],[0,9,"<a href=\"TimelinePanel.php.html#112\">yii\\debug\\panels\\TimelinePanel::load<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#143\">yii\\debug\\panels\\TimelinePanel::save<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#157\">yii\\debug\\panels\\TimelinePanel::setColors<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#168\">yii\\debug\\panels\\TimelinePanel::getColors<\/a>"],[0,2,"<a href=\"TimelinePanel.php.html#176\">yii\\debug\\panels\\TimelinePanel::setSvgOptions<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#187\">yii\\debug\\panels\\TimelinePanel::getSvgOptions<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#196\">yii\\debug\\panels\\TimelinePanel::getStart<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#205\">yii\\debug\\panels\\TimelinePanel::getDuration<\/a>"],[0,1,"<a href=\"TimelinePanel.php.html#215\">yii\\debug\\panels\\TimelinePanel::getMemory<\/a>"],[0,2,"<a href=\"TimelinePanel.php.html#225\">yii\\debug\\panels\\TimelinePanel::getSvg<\/a>"],[0,4,"<a href=\"TimelinePanel.php.html#240\">yii\\debug\\panels\\TimelinePanel::getModels<\/a>"],[0,9,"<a href=\"UserPanel.php.html#81\">yii\\debug\\panels\\UserPanel::init<\/a>"],[0,2,"<a href=\"UserPanel.php.html#107\">yii\\debug\\panels\\UserPanel::getUser<\/a>"],[0,1,"<a href=\"UserPanel.php.html#118\">yii\\debug\\panels\\UserPanel::addAccessRules<\/a>"],[0,1,"<a href=\"UserPanel.php.html#139\">yii\\debug\\panels\\UserPanel::getUsersFilterModel<\/a>"],[0,1,"<a href=\"UserPanel.php.html#148\">yii\\debug\\panels\\UserPanel::getUserDataProvider<\/a>"],[0,3,"<a href=\"UserPanel.php.html#157\">yii\\debug\\panels\\UserPanel::canSearchUsers<\/a>"],[0,6,"<a href=\"UserPanel.php.html#170\">yii\\debug\\panels\\UserPanel::canSwitchUser<\/a>"],[0,1,"<a href=\"UserPanel.php.html#202\">yii\\debug\\panels\\UserPanel::getName<\/a>"],[0,1,"<a href=\"UserPanel.php.html#210\">yii\\debug\\panels\\UserPanel::getSummary<\/a>"],[0,1,"<a href=\"UserPanel.php.html#218\">yii\\debug\\panels\\UserPanel::getDetail<\/a>"],[0,9,"<a href=\"UserPanel.php.html#226\">yii\\debug\\panels\\UserPanel::save<\/a>"],[0,2,"<a href=\"UserPanel.php.html#296\">yii\\debug\\panels\\UserPanel::isEnabled<\/a>"],[0,2,"<a href=\"UserPanel.php.html#312\">yii\\debug\\panels\\UserPanel::dataToString<\/a>"],[0,2,"<a href=\"UserPanel.php.html#327\">yii\\debug\\panels\\UserPanel::identityData<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

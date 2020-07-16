@@ -2,9 +2,21 @@
 namespace tests\unit;
 
 use app\models\User;
+use PHPUnit\Framework\TestCase as FrameworkTestCase;
+use Yii;
 
-/* class UserTest extends TestCase
+class UserTest extends FrameworkTestCase
 {
+
+    public function setUp(): void
+    {
+        User::deleteAll();
+        Yii::$app->db->createCommand()->insert(User::tableName(), [
+          'username' => 'user',
+          'email' => 'user@email.com'
+        ])->execute();
+    }
+
     public function testValidateEmptyValues()
     {
         $user = new User();
@@ -34,41 +46,6 @@ use app\models\User;
         ]);
 
         $this->assertTrue($user->validate(), 'correct model is valid ');
-    }
-} */
-
-
-/* class UserTest extends TestCase
-{
-    public function testSaveIntoDatabase()
-    {
-        $user = new User([
-          'username' => 'TestUserName',
-          'email' => 'test@mail.ru'
-        ]);
-
-        
-        $this->assertTrue($user->save(), 'model is saved ');
-    }    
-} */
-
-
-
-// Очистка базы перед сохранением для тестов повторных 0:51
-
-use tests\TestCase;
-
-class UserTest extends TestCase
-{
-
-    public function setUp()
-    {
-        parent::setUp();
-
-        User::deleteAll([
-            'username' => 'TestUserName',
-            'email' => 'test@mail.ru'
-          ]);
     }
 
     public function testSaveIntoDatabase()

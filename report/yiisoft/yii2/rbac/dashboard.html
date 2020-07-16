@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\laragon\www\test-eliseev\vendor\yiisoft\yii2\rbac</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">D:\laragon\www\test-eliseev\vendor</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">yiisoft</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">yii2</a></li>
+         <li class="breadcrumb-item"><a href="index.html">rbac</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BaseManager.php.html#28">yii\rbac\BaseManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#39">yii\rbac\DbManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#37">yii\rbac\PhpManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#17">m140506_102106_rbac_init</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#20">m170907_052038_rbac_add_index_on_auth_assignment_user_id</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#20">m180523_151638_rbac_updates_indexes_without_prefix</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#21">m200409_110543_rbac_update_mssql_trigger</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PhpManager.php.html#37">yii\rbac\PhpManager</a></td><td class="text-right">22350</td></tr>
+       <tr><td><a href="DbManager.php.html#39">yii\rbac\DbManager</a></td><td class="text-right">18632</td></tr>
+       <tr><td><a href="BaseManager.php.html#28">yii\rbac\BaseManager</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#17">m140506_102106_rbac_init</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#21">m200409_110543_rbac_update_mssql_trigger</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#20">m170907_052038_rbac_add_index_on_auth_assignment_user_id</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#20">m180523_151638_rbac_updates_indexes_without_prefix</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BaseManager.php.html#104"><abbr title="yii\rbac\BaseManager::createRole">createRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#386"><abbr title="yii\rbac\PhpManager::getRules">getRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#565"><abbr title="yii\rbac\PhpManager::removeAllItems">removeAllItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#556"><abbr title="yii\rbac\PhpManager::removeAllRoles">removeAllRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#548"><abbr title="yii\rbac\PhpManager::removeAllPermissions">removeAllPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#536"><abbr title="yii\rbac\PhpManager::removeAll">removeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#528"><abbr title="yii\rbac\PhpManager::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#503"><abbr title="yii\rbac\PhpManager::getInheritedPermissionsByUser">getInheritedPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#484"><abbr title="yii\rbac\PhpManager::getDirectPermissionsByUser">getDirectPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#470"><abbr title="yii\rbac\PhpManager::getPermissionsByUser">getPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#457"><abbr title="yii\rbac\PhpManager::getChildrenRecursive">getChildrenRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#434"><abbr title="yii\rbac\PhpManager::getPermissionsByRole">getPermissionsByRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#411"><abbr title="yii\rbac\PhpManager::getChildRoles">getChildRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#395"><abbr title="yii\rbac\PhpManager::getRolesByUser">getRolesByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#378"><abbr title="yii\rbac\PhpManager::getRule">getRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#616"><abbr title="yii\rbac\PhpManager::removeAllAssignments">removeAllAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#365"><abbr title="yii\rbac\PhpManager::updateRule">updateRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#357"><abbr title="yii\rbac\PhpManager::getItem">getItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#336"><abbr title="yii\rbac\PhpManager::removeItem">removeItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#318"><abbr title="yii\rbac\PhpManager::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#310"><abbr title="yii\rbac\PhpManager::getAssignment">getAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#294"><abbr title="yii\rbac\PhpManager::revokeAll">revokeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#280"><abbr title="yii\rbac\PhpManager::revoke">revoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#259"><abbr title="yii\rbac\PhpManager::assign">assign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#251"><abbr title="yii\rbac\PhpManager::hasChild">hasChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#237"><abbr title="yii\rbac\PhpManager::removeChildren">removeChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#223"><abbr title="yii\rbac\PhpManager::removeChild">removeChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#202"><abbr title="yii\rbac\PhpManager::detectLoop">detectLoop</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#170"><abbr title="yii\rbac\PhpManager::addChild">addChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#604"><abbr title="yii\rbac\PhpManager::removeAllRules">removeAllRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#625"><abbr title="yii\rbac\PhpManager::removeRule">removeRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#131"><abbr title="yii\rbac\PhpManager::checkAccessRecursive">checkAccessRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#49"><abbr title="m140506_102106_rbac_init::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#62"><abbr title="m200409_110543_rbac_update_mssql_trigger::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#54"><abbr title="m200409_110543_rbac_update_mssql_trigger::isMSSQL">isMSSQL</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#37"><abbr title="m200409_110543_rbac_update_mssql_trigger::findForeignKeyName">findForeignKeyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#27"><abbr title="m200409_110543_rbac_update_mssql_trigger::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#54"><abbr title="m180523_151638_rbac_updates_indexes_without_prefix::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#39"><abbr title="m180523_151638_rbac_updates_indexes_without_prefix::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#26"><abbr title="m180523_151638_rbac_updates_indexes_without_prefix::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#53"><abbr title="m170907_052038_rbac_add_index_on_auth_assignment_user_id::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#42"><abbr title="m170907_052038_rbac_add_index_on_auth_assignment_user_id::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#29"><abbr title="m170907_052038_rbac_add_index_on_auth_assignment_user_id::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#159"><abbr title="m140506_102106_rbac_init::buildFkClause">buildFkClause</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#143"><abbr title="m140506_102106_rbac_init::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#41"><abbr title="m140506_102106_rbac_init::isOracle">isOracle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#644"><abbr title="yii\rbac\PhpManager::addRule">addRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#36"><abbr title="m140506_102106_rbac_init::isMSSQL">isMSSQL</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#23"><abbr title="m140506_102106_rbac_init::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#875"><abbr title="yii\rbac\PhpManager::getUserIdsByRole">getUserIdsByRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#862"><abbr title="yii\rbac\PhpManager::saveRules">saveRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#847"><abbr title="yii\rbac\PhpManager::saveAssignments">saveAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#821"><abbr title="yii\rbac\PhpManager::saveItems">saveItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#808"><abbr title="yii\rbac\PhpManager::invalidateScriptCache">invalidateScriptCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#797"><abbr title="yii\rbac\PhpManager::saveToFile">saveToFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#781"><abbr title="yii\rbac\PhpManager::loadFromFile">loadFromFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#767"><abbr title="yii\rbac\PhpManager::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#713"><abbr title="yii\rbac\PhpManager::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#693"><abbr title="yii\rbac\PhpManager::addItem">addItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#654"><abbr title="yii\rbac\PhpManager::updateItem">updateItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#162"><abbr title="yii\rbac\PhpManager::canAddChild">canAddChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#113"><abbr title="yii\rbac\PhpManager::getAssignments">getAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#114"><abbr title="yii\rbac\BaseManager::createPermission">createPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#157"><abbr title="yii\rbac\DbManager::checkAccessFromCache">checkAccessFromCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#465"><abbr title="yii\rbac\DbManager::getRolesByUser">getRolesByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#442"><abbr title="yii\rbac\DbManager::populateItem">populateItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#423"><abbr title="yii\rbac\DbManager::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#403"><abbr title="yii\rbac\DbManager::removeRule">removeRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#376"><abbr title="yii\rbac\DbManager::updateRule">updateRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#351"><abbr title="yii\rbac\DbManager::addRule">addRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#316"><abbr title="yii\rbac\DbManager::updateItem">updateItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#293"><abbr title="yii\rbac\DbManager::removeItem">removeItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#265"><abbr title="yii\rbac\DbManager::addItem">addItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#257"><abbr title="yii\rbac\DbManager::supportsCascadeUpdate">supportsCascadeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#231"><abbr title="yii\rbac\DbManager::getItem">getItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#198"><abbr title="yii\rbac\DbManager::checkAccessRecursive">checkAccessRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#123"><abbr title="yii\rbac\DbManager::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#511"><abbr title="yii\rbac\DbManager::getPermissionsByRole">getPermissionsByRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#109"><abbr title="yii\rbac\DbManager::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#289"><abbr title="yii\rbac\BaseManager::hasNoAssignments">hasNoAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#269"><abbr title="yii\rbac\BaseManager::executeRule">executeRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#251"><abbr title="yii\rbac\BaseManager::getPermissions">getPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#238"><abbr title="yii\rbac\BaseManager::getDefaultRoleInstances">getDefaultRoleInstances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#228"><abbr title="yii\rbac\BaseManager::getDefaultRoles">getDefaultRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#208"><abbr title="yii\rbac\BaseManager::setDefaultRoles">setDefaultRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#196"><abbr title="yii\rbac\BaseManager::getRoles">getRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#187"><abbr title="yii\rbac\BaseManager::getPermission">getPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#178"><abbr title="yii\rbac\BaseManager::getRole">getRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#158"><abbr title="yii\rbac\BaseManager::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#144"><abbr title="yii\rbac\BaseManager::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BaseManager.php.html#124"><abbr title="yii\rbac\BaseManager::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#488"><abbr title="yii\rbac\DbManager::getChildRoles">getChildRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#534"><abbr title="yii\rbac\DbManager::getPermissionsByUser">getPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#99"><abbr title="yii\rbac\PhpManager::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#845"><abbr title="yii\rbac\DbManager::assign">assign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpManager.php.html#87"><abbr title="yii\rbac\PhpManager::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#1051"><abbr title="yii\rbac\DbManager::isEmptyUserId">isEmptyUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#1034"><abbr title="yii\rbac\DbManager::getUserIdsByRole">getUserIdsByRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#988"><abbr title="yii\rbac\DbManager::loadFromCache">loadFromCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#977"><abbr title="yii\rbac\DbManager::invalidateCache">invalidateCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#971"><abbr title="yii\rbac\DbManager::removeAllAssignments">removeAllAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#955"><abbr title="yii\rbac\DbManager::removeAllRules">removeAllRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#926"><abbr title="yii\rbac\DbManager::removeAllItems">removeAllItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#917"><abbr title="yii\rbac\DbManager::removeAllRoles">removeAllRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#909"><abbr title="yii\rbac\DbManager::removeAllPermissions">removeAllPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#897"><abbr title="yii\rbac\DbManager::removeAll">removeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#882"><abbr title="yii\rbac\DbManager::revokeAll">revokeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#867"><abbr title="yii\rbac\DbManager::revoke">revoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#828"><abbr title="yii\rbac\DbManager::detectLoop">detectLoop</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#552"><abbr title="yii\rbac\DbManager::getDirectPermissionsByUser">getDirectPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#807"><abbr title="yii\rbac\DbManager::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#796"><abbr title="yii\rbac\DbManager::hasChild">hasChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#782"><abbr title="yii\rbac\DbManager::removeChildren">removeChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#768"><abbr title="yii\rbac\DbManager::removeChild">removeChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#742"><abbr title="yii\rbac\DbManager::addChild">addChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#734"><abbr title="yii\rbac\DbManager::canAddChild">canAddChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#708"><abbr title="yii\rbac\DbManager::getAssignments">getAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#684"><abbr title="yii\rbac\DbManager::getAssignment">getAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#661"><abbr title="yii\rbac\DbManager::getRules">getRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#637"><abbr title="yii\rbac\DbManager::getRule">getRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#624"><abbr title="yii\rbac\DbManager::getChildrenRecursive">getChildrenRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#607"><abbr title="yii\rbac\DbManager::getChildrenList">getChildrenList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DbManager.php.html#574"><abbr title="yii\rbac\DbManager::getInheritedPermissionsByUser">getInheritedPermissionsByUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#117"><abbr title="m200409_110543_rbac_update_mssql_trigger::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PhpManager.php.html#713"><abbr title="yii\rbac\PhpManager::load">load</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PhpManager.php.html#565"><abbr title="yii\rbac\PhpManager::removeAllItems">removeAllItems</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="DbManager.php.html#988"><abbr title="yii\rbac\DbManager::loadFromCache">loadFromCache</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PhpManager.php.html#131"><abbr title="yii\rbac\PhpManager::checkAccessRecursive">checkAccessRecursive</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="DbManager.php.html#157"><abbr title="yii\rbac\DbManager::checkAccessFromCache">checkAccessFromCache</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="DbManager.php.html#198"><abbr title="yii\rbac\DbManager::checkAccessRecursive">checkAccessRecursive</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PhpManager.php.html#654"><abbr title="yii\rbac\PhpManager::updateItem">updateItem</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PhpManager.php.html#170"><abbr title="yii\rbac\PhpManager::addChild">addChild</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PhpManager.php.html#503"><abbr title="yii\rbac\PhpManager::getInheritedPermissionsByUser">getInheritedPermissionsByUser</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="DbManager.php.html#442"><abbr title="yii\rbac\DbManager::populateItem">populateItem</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PhpManager.php.html#434"><abbr title="yii\rbac\PhpManager::getPermissionsByRole">getPermissionsByRole</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DbManager.php.html#742"><abbr title="yii\rbac\DbManager::addChild">addChild</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PhpManager.php.html#875"><abbr title="yii\rbac\PhpManager::getUserIdsByRole">getUserIdsByRole</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="BaseManager.php.html#124"><abbr title="yii\rbac\BaseManager::add">add</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="BaseManager.php.html#158"><abbr title="yii\rbac\BaseManager::update">update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PhpManager.php.html#202"><abbr title="yii\rbac\PhpManager::detectLoop">detectLoop</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DbManager.php.html#637"><abbr title="yii\rbac\DbManager::getRule">getRule</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DbManager.php.html#574"><abbr title="yii\rbac\DbManager::getInheritedPermissionsByUser">getInheritedPermissionsByUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PhpManager.php.html#821"><abbr title="yii\rbac\PhpManager::saveItems">saveItems</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#926"><abbr title="yii\rbac\DbManager::removeAllItems">removeAllItems</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#828"><abbr title="yii\rbac\DbManager::detectLoop">detectLoop</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PhpManager.php.html#625"><abbr title="yii\rbac\PhpManager::removeRule">removeRule</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PhpManager.php.html#294"><abbr title="yii\rbac\PhpManager::revokeAll">revokeAll</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PhpManager.php.html#336"><abbr title="yii\rbac\PhpManager::removeItem">removeItem</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#661"><abbr title="yii\rbac\DbManager::getRules">getRules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#265"><abbr title="yii\rbac\DbManager::addItem">addItem</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BaseManager.php.html#208"><abbr title="yii\rbac\BaseManager::setDefaultRoles">setDefaultRoles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#123"><abbr title="yii\rbac\DbManager::checkAccess">checkAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#231"><abbr title="yii\rbac\DbManager::getItem">getItem</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DbManager.php.html#316"><abbr title="yii\rbac\DbManager::updateItem">updateItem</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#36"><abbr title="m140506_102106_rbac_init::isMSSQL">isMSSQL</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#395"><abbr title="yii\rbac\PhpManager::getRolesByUser">getRolesByUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#484"><abbr title="yii\rbac\PhpManager::getDirectPermissionsByUser">getDirectPermissionsByUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BaseManager.php.html#178"><abbr title="yii\rbac\BaseManager::getRole">getRole</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BaseManager.php.html#187"><abbr title="yii\rbac\BaseManager::getPermission">getPermission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#318"><abbr title="yii\rbac\PhpManager::getItems">getItems</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#259"><abbr title="yii\rbac\PhpManager::assign">assign</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BaseManager.php.html#269"><abbr title="yii\rbac\BaseManager::executeRule">executeRule</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#54"><abbr title="m200409_110543_rbac_update_mssql_trigger::isMSSQL">isMSSQL</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#693"><abbr title="yii\rbac\PhpManager::addItem">addItem</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BaseManager.php.html#144"><abbr title="yii\rbac\BaseManager::remove">remove</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#49"><abbr title="m140506_102106_rbac_init::up">up</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#457"><abbr title="yii\rbac\PhpManager::getChildrenRecursive">getChildrenRecursive</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#159"><abbr title="m140506_102106_rbac_init::buildFkClause">buildFkClause</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#511"><abbr title="yii\rbac\DbManager::getPermissionsByRole">getPermissionsByRole</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#624"><abbr title="yii\rbac\DbManager::getChildrenRecursive">getChildrenRecursive</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#465"><abbr title="yii\rbac\DbManager::getRolesByUser">getRolesByUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#684"><abbr title="yii\rbac\DbManager::getAssignment">getAssignment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#708"><abbr title="yii\rbac\DbManager::getAssignments">getAssignments</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#376"><abbr title="yii\rbac\DbManager::updateRule">updateRule</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#847"><abbr title="yii\rbac\PhpManager::saveAssignments">saveAssignments</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DbManager.php.html#351"><abbr title="yii\rbac\DbManager::addRule">addRule</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PhpManager.php.html#808"><abbr title="yii\rbac\PhpManager::invalidateScriptCache">invalidateScriptCache</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#27"><abbr title="m200409_110543_rbac_update_mssql_trigger::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#29"><abbr title="m170907_052038_rbac_add_index_on_auth_assignment_user_id::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#781"><abbr title="yii\rbac\PhpManager::loadFromFile">loadFromFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#604"><abbr title="yii\rbac\PhpManager::removeAllRules">removeAllRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#62"><abbr title="m200409_110543_rbac_update_mssql_trigger::up">up</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#862"><abbr title="yii\rbac\PhpManager::saveRules">saveRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#143"><abbr title="m140506_102106_rbac_init::down">down</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#528"><abbr title="yii\rbac\PhpManager::getChildren">getChildren</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m140506_102106_rbac_init.php.html#23"><abbr title="m140506_102106_rbac_init::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m180523_151638_rbac_updates_indexes_without_prefix.php.html#26"><abbr title="m180523_151638_rbac_updates_indexes_without_prefix::getAuthManager">getAuthManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#99"><abbr title="yii\rbac\PhpManager::checkAccess">checkAccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#411"><abbr title="yii\rbac\PhpManager::getChildRoles">getChildRoles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#867"><abbr title="yii\rbac\DbManager::revoke">revoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BaseManager.php.html#238"><abbr title="yii\rbac\BaseManager::getDefaultRoleInstances">getDefaultRoleInstances</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BaseManager.php.html#289"><abbr title="yii\rbac\BaseManager::hasNoAssignments">hasNoAssignments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#109"><abbr title="yii\rbac\DbManager::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#293"><abbr title="yii\rbac\DbManager::removeItem">removeItem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#403"><abbr title="yii\rbac\DbManager::removeRule">removeRule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#423"><abbr title="yii\rbac\DbManager::getItems">getItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#488"><abbr title="yii\rbac\DbManager::getChildRoles">getChildRoles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#534"><abbr title="yii\rbac\DbManager::getPermissionsByUser">getPermissionsByUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#552"><abbr title="yii\rbac\DbManager::getDirectPermissionsByUser">getDirectPermissionsByUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#607"><abbr title="yii\rbac\DbManager::getChildrenList">getChildrenList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#807"><abbr title="yii\rbac\DbManager::getChildren">getChildren</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#882"><abbr title="yii\rbac\DbManager::revokeAll">revokeAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#378"><abbr title="yii\rbac\PhpManager::getRule">getRule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#955"><abbr title="yii\rbac\DbManager::removeAllRules">removeAllRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#977"><abbr title="yii\rbac\DbManager::invalidateCache">invalidateCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#1034"><abbr title="yii\rbac\DbManager::getUserIdsByRole">getUserIdsByRole</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DbManager.php.html#1051"><abbr title="yii\rbac\DbManager::isEmptyUserId">isEmptyUserId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#113"><abbr title="yii\rbac\PhpManager::getAssignments">getAssignments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#223"><abbr title="yii\rbac\PhpManager::removeChild">removeChild</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#237"><abbr title="yii\rbac\PhpManager::removeChildren">removeChildren</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#280"><abbr title="yii\rbac\PhpManager::revoke">revoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#310"><abbr title="yii\rbac\PhpManager::getAssignment">getAssignment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#357"><abbr title="yii\rbac\PhpManager::getItem">getItem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpManager.php.html#365"><abbr title="yii\rbac\PhpManager::updateRule">updateRule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="migrations/m200409_110543_rbac_update_mssql_trigger.php.html#117"><abbr title="m200409_110543_rbac_update_mssql_trigger::down">down</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.11</a> with <a href="https://xdebug.org/">Xdebug 2.9.6</a> and <a href="https://phpunit.de/">PHPUnit 8.5.8</a> at Thu Jul 16 12:46:45 UTC 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([124,0,0,0,0,0,0,0,0,0,0,9], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Assignment.php.html#22\">yii\\rbac\\Assignment<\/a>"],[0,43,"<a href=\"BaseManager.php.html#28\">yii\\rbac\\BaseManager<\/a>"],[0,136,"<a href=\"DbManager.php.html#39\">yii\\rbac\\DbManager<\/a>"],[100,0,"<a href=\"Item.php.html#18\">yii\\rbac\\Item<\/a>"],[100,0,"<a href=\"Permission.php.html#16\">yii\\rbac\\Permission<\/a>"],[0,149,"<a href=\"PhpManager.php.html#37\">yii\\rbac\\PhpManager<\/a>"],[100,0,"<a href=\"Role.php.html#16\">yii\\rbac\\Role<\/a>"],[100,1,"<a href=\"Rule.php.html#20\">yii\\rbac\\Rule<\/a>"],[0,14,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#17\">m140506_102106_rbac_init<\/a>"],[0,4,"<a href=\"migrations\/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#20\">m170907_052038_rbac_add_index_on_auth_assignment_user_id<\/a>"],[0,4,"<a href=\"migrations\/m180523_151638_rbac_updates_indexes_without_prefix.php.html#20\">m180523_151638_rbac_updates_indexes_without_prefix<\/a>"],[0,10,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#21\">m200409_110543_rbac_update_mssql_trigger<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"BaseManager.php.html#42\">yii\\rbac\\BaseManager::getItem<\/a>"],[100,1,"<a href=\"BaseManager.php.html#49\">yii\\rbac\\BaseManager::getItems<\/a>"],[100,1,"<a href=\"BaseManager.php.html#57\">yii\\rbac\\BaseManager::addItem<\/a>"],[100,1,"<a href=\"BaseManager.php.html#65\">yii\\rbac\\BaseManager::addRule<\/a>"],[100,1,"<a href=\"BaseManager.php.html#73\">yii\\rbac\\BaseManager::removeItem<\/a>"],[100,1,"<a href=\"BaseManager.php.html#81\">yii\\rbac\\BaseManager::removeRule<\/a>"],[100,1,"<a href=\"BaseManager.php.html#90\">yii\\rbac\\BaseManager::updateItem<\/a>"],[100,1,"<a href=\"BaseManager.php.html#99\">yii\\rbac\\BaseManager::updateRule<\/a>"],[0,1,"<a href=\"BaseManager.php.html#104\">yii\\rbac\\BaseManager::createRole<\/a>"],[0,1,"<a href=\"BaseManager.php.html#114\">yii\\rbac\\BaseManager::createPermission<\/a>"],[0,5,"<a href=\"BaseManager.php.html#124\">yii\\rbac\\BaseManager::add<\/a>"],[0,3,"<a href=\"BaseManager.php.html#144\">yii\\rbac\\BaseManager::remove<\/a>"],[0,5,"<a href=\"BaseManager.php.html#158\">yii\\rbac\\BaseManager::update<\/a>"],[0,3,"<a href=\"BaseManager.php.html#178\">yii\\rbac\\BaseManager::getRole<\/a>"],[0,3,"<a href=\"BaseManager.php.html#187\">yii\\rbac\\BaseManager::getPermission<\/a>"],[0,1,"<a href=\"BaseManager.php.html#196\">yii\\rbac\\BaseManager::getRoles<\/a>"],[0,4,"<a href=\"BaseManager.php.html#208\">yii\\rbac\\BaseManager::setDefaultRoles<\/a>"],[0,1,"<a href=\"BaseManager.php.html#228\">yii\\rbac\\BaseManager::getDefaultRoles<\/a>"],[0,2,"<a href=\"BaseManager.php.html#238\">yii\\rbac\\BaseManager::getDefaultRoleInstances<\/a>"],[0,1,"<a href=\"BaseManager.php.html#251\">yii\\rbac\\BaseManager::getPermissions<\/a>"],[0,3,"<a href=\"BaseManager.php.html#269\">yii\\rbac\\BaseManager::executeRule<\/a>"],[0,2,"<a href=\"BaseManager.php.html#289\">yii\\rbac\\BaseManager::hasNoAssignments<\/a>"],[0,2,"<a href=\"DbManager.php.html#109\">yii\\rbac\\DbManager::init<\/a>"],[0,4,"<a href=\"DbManager.php.html#123\">yii\\rbac\\DbManager::checkAccess<\/a>"],[0,9,"<a href=\"DbManager.php.html#157\">yii\\rbac\\DbManager::checkAccessFromCache<\/a>"],[0,8,"<a href=\"DbManager.php.html#198\">yii\\rbac\\DbManager::checkAccessRecursive<\/a>"],[0,4,"<a href=\"DbManager.php.html#231\">yii\\rbac\\DbManager::getItem<\/a>"],[0,1,"<a href=\"DbManager.php.html#257\">yii\\rbac\\DbManager::supportsCascadeUpdate<\/a>"],[0,4,"<a href=\"DbManager.php.html#265\">yii\\rbac\\DbManager::addItem<\/a>"],[0,2,"<a href=\"DbManager.php.html#293\">yii\\rbac\\DbManager::removeItem<\/a>"],[0,4,"<a href=\"DbManager.php.html#316\">yii\\rbac\\DbManager::updateItem<\/a>"],[0,3,"<a href=\"DbManager.php.html#351\">yii\\rbac\\DbManager::addRule<\/a>"],[0,3,"<a href=\"DbManager.php.html#376\">yii\\rbac\\DbManager::updateRule<\/a>"],[0,2,"<a href=\"DbManager.php.html#403\">yii\\rbac\\DbManager::removeRule<\/a>"],[0,2,"<a href=\"DbManager.php.html#423\">yii\\rbac\\DbManager::getItems<\/a>"],[0,6,"<a href=\"DbManager.php.html#442\">yii\\rbac\\DbManager::populateItem<\/a>"],[0,3,"<a href=\"DbManager.php.html#465\">yii\\rbac\\DbManager::getRolesByUser<\/a>"],[0,2,"<a href=\"DbManager.php.html#488\">yii\\rbac\\DbManager::getChildRoles<\/a>"],[0,3,"<a href=\"DbManager.php.html#511\">yii\\rbac\\DbManager::getPermissionsByRole<\/a>"],[0,2,"<a href=\"DbManager.php.html#534\">yii\\rbac\\DbManager::getPermissionsByUser<\/a>"],[0,2,"<a href=\"DbManager.php.html#552\">yii\\rbac\\DbManager::getDirectPermissionsByUser<\/a>"],[0,4,"<a href=\"DbManager.php.html#574\">yii\\rbac\\DbManager::getInheritedPermissionsByUser<\/a>"],[0,2,"<a href=\"DbManager.php.html#607\">yii\\rbac\\DbManager::getChildrenList<\/a>"],[0,3,"<a href=\"DbManager.php.html#624\">yii\\rbac\\DbManager::getChildrenRecursive<\/a>"],[0,5,"<a href=\"DbManager.php.html#637\">yii\\rbac\\DbManager::getRule<\/a>"],[0,4,"<a href=\"DbManager.php.html#661\">yii\\rbac\\DbManager::getRules<\/a>"],[0,3,"<a href=\"DbManager.php.html#684\">yii\\rbac\\DbManager::getAssignment<\/a>"],[0,3,"<a href=\"DbManager.php.html#708\">yii\\rbac\\DbManager::getAssignments<\/a>"],[0,1,"<a href=\"DbManager.php.html#734\">yii\\rbac\\DbManager::canAddChild<\/a>"],[0,5,"<a href=\"DbManager.php.html#742\">yii\\rbac\\DbManager::addChild<\/a>"],[0,1,"<a href=\"DbManager.php.html#768\">yii\\rbac\\DbManager::removeChild<\/a>"],[0,1,"<a href=\"DbManager.php.html#782\">yii\\rbac\\DbManager::removeChildren<\/a>"],[0,1,"<a href=\"DbManager.php.html#796\">yii\\rbac\\DbManager::hasChild<\/a>"],[0,2,"<a href=\"DbManager.php.html#807\">yii\\rbac\\DbManager::getChildren<\/a>"],[0,4,"<a href=\"DbManager.php.html#828\">yii\\rbac\\DbManager::detectLoop<\/a>"],[0,1,"<a href=\"DbManager.php.html#845\">yii\\rbac\\DbManager::assign<\/a>"],[0,2,"<a href=\"DbManager.php.html#867\">yii\\rbac\\DbManager::revoke<\/a>"],[0,2,"<a href=\"DbManager.php.html#882\">yii\\rbac\\DbManager::revokeAll<\/a>"],[0,1,"<a href=\"DbManager.php.html#897\">yii\\rbac\\DbManager::removeAll<\/a>"],[0,1,"<a href=\"DbManager.php.html#909\">yii\\rbac\\DbManager::removeAllPermissions<\/a>"],[0,1,"<a href=\"DbManager.php.html#917\">yii\\rbac\\DbManager::removeAllRoles<\/a>"],[0,4,"<a href=\"DbManager.php.html#926\">yii\\rbac\\DbManager::removeAllItems<\/a>"],[0,2,"<a href=\"DbManager.php.html#955\">yii\\rbac\\DbManager::removeAllRules<\/a>"],[0,1,"<a href=\"DbManager.php.html#971\">yii\\rbac\\DbManager::removeAllAssignments<\/a>"],[0,2,"<a href=\"DbManager.php.html#977\">yii\\rbac\\DbManager::invalidateCache<\/a>"],[0,10,"<a href=\"DbManager.php.html#988\">yii\\rbac\\DbManager::loadFromCache<\/a>"],[0,2,"<a href=\"DbManager.php.html#1034\">yii\\rbac\\DbManager::getUserIdsByRole<\/a>"],[0,2,"<a href=\"DbManager.php.html#1051\">yii\\rbac\\DbManager::isEmptyUserId<\/a>"],[0,1,"<a href=\"PhpManager.php.html#87\">yii\\rbac\\PhpManager::init<\/a>"],[0,2,"<a href=\"PhpManager.php.html#99\">yii\\rbac\\PhpManager::checkAccess<\/a>"],[0,2,"<a href=\"PhpManager.php.html#113\">yii\\rbac\\PhpManager::getAssignments<\/a>"],[0,9,"<a href=\"PhpManager.php.html#131\">yii\\rbac\\PhpManager::checkAccessRecursive<\/a>"],[0,1,"<a href=\"PhpManager.php.html#162\">yii\\rbac\\PhpManager::canAddChild<\/a>"],[0,7,"<a href=\"PhpManager.php.html#170\">yii\\rbac\\PhpManager::addChild<\/a>"],[0,5,"<a href=\"PhpManager.php.html#202\">yii\\rbac\\PhpManager::detectLoop<\/a>"],[0,2,"<a href=\"PhpManager.php.html#223\">yii\\rbac\\PhpManager::removeChild<\/a>"],[0,2,"<a href=\"PhpManager.php.html#237\">yii\\rbac\\PhpManager::removeChildren<\/a>"],[0,1,"<a href=\"PhpManager.php.html#251\">yii\\rbac\\PhpManager::hasChild<\/a>"],[0,3,"<a href=\"PhpManager.php.html#259\">yii\\rbac\\PhpManager::assign<\/a>"],[0,2,"<a href=\"PhpManager.php.html#280\">yii\\rbac\\PhpManager::revoke<\/a>"],[0,4,"<a href=\"PhpManager.php.html#294\">yii\\rbac\\PhpManager::revokeAll<\/a>"],[0,2,"<a href=\"PhpManager.php.html#310\">yii\\rbac\\PhpManager::getAssignment<\/a>"],[0,3,"<a href=\"PhpManager.php.html#318\">yii\\rbac\\PhpManager::getItems<\/a>"],[0,4,"<a href=\"PhpManager.php.html#336\">yii\\rbac\\PhpManager::removeItem<\/a>"],[0,2,"<a href=\"PhpManager.php.html#357\">yii\\rbac\\PhpManager::getItem<\/a>"],[0,2,"<a href=\"PhpManager.php.html#365\">yii\\rbac\\PhpManager::updateRule<\/a>"],[0,2,"<a href=\"PhpManager.php.html#378\">yii\\rbac\\PhpManager::getRule<\/a>"],[0,1,"<a href=\"PhpManager.php.html#386\">yii\\rbac\\PhpManager::getRules<\/a>"],[0,3,"<a href=\"PhpManager.php.html#395\">yii\\rbac\\PhpManager::getRolesByUser<\/a>"],[0,2,"<a href=\"PhpManager.php.html#411\">yii\\rbac\\PhpManager::getChildRoles<\/a>"],[0,5,"<a href=\"PhpManager.php.html#434\">yii\\rbac\\PhpManager::getPermissionsByRole<\/a>"],[0,3,"<a href=\"PhpManager.php.html#457\">yii\\rbac\\PhpManager::getChildrenRecursive<\/a>"],[0,1,"<a href=\"PhpManager.php.html#470\">yii\\rbac\\PhpManager::getPermissionsByUser<\/a>"],[0,3,"<a href=\"PhpManager.php.html#484\">yii\\rbac\\PhpManager::getDirectPermissionsByUser<\/a>"],[0,6,"<a href=\"PhpManager.php.html#503\">yii\\rbac\\PhpManager::getInheritedPermissionsByUser<\/a>"],[0,2,"<a href=\"PhpManager.php.html#528\">yii\\rbac\\PhpManager::getChildren<\/a>"],[0,1,"<a href=\"PhpManager.php.html#536\">yii\\rbac\\PhpManager::removeAll<\/a>"],[0,1,"<a href=\"PhpManager.php.html#548\">yii\\rbac\\PhpManager::removeAllPermissions<\/a>"],[0,1,"<a href=\"PhpManager.php.html#556\">yii\\rbac\\PhpManager::removeAllRoles<\/a>"],[0,11,"<a href=\"PhpManager.php.html#565\">yii\\rbac\\PhpManager::removeAllItems<\/a>"],[0,2,"<a href=\"PhpManager.php.html#604\">yii\\rbac\\PhpManager::removeAllRules<\/a>"],[0,1,"<a href=\"PhpManager.php.html#616\">yii\\rbac\\PhpManager::removeAllAssignments<\/a>"],[0,4,"<a href=\"PhpManager.php.html#625\">yii\\rbac\\PhpManager::removeRule<\/a>"],[0,1,"<a href=\"PhpManager.php.html#644\">yii\\rbac\\PhpManager::addRule<\/a>"],[0,8,"<a href=\"PhpManager.php.html#654\">yii\\rbac\\PhpManager::updateItem<\/a>"],[0,3,"<a href=\"PhpManager.php.html#693\">yii\\rbac\\PhpManager::addItem<\/a>"],[0,13,"<a href=\"PhpManager.php.html#713\">yii\\rbac\\PhpManager::load<\/a>"],[0,1,"<a href=\"PhpManager.php.html#767\">yii\\rbac\\PhpManager::save<\/a>"],[0,2,"<a href=\"PhpManager.php.html#781\">yii\\rbac\\PhpManager::loadFromFile<\/a>"],[0,1,"<a href=\"PhpManager.php.html#797\">yii\\rbac\\PhpManager::saveToFile<\/a>"],[0,3,"<a href=\"PhpManager.php.html#808\">yii\\rbac\\PhpManager::invalidateScriptCache<\/a>"],[0,4,"<a href=\"PhpManager.php.html#821\">yii\\rbac\\PhpManager::saveItems<\/a>"],[0,3,"<a href=\"PhpManager.php.html#847\">yii\\rbac\\PhpManager::saveAssignments<\/a>"],[0,2,"<a href=\"PhpManager.php.html#862\">yii\\rbac\\PhpManager::saveRules<\/a>"],[0,5,"<a href=\"PhpManager.php.html#875\">yii\\rbac\\PhpManager::getUserIdsByRole<\/a>"],[100,1,"<a href=\"Rule.php.html#45\">yii\\rbac\\Rule::execute<\/a>"],[0,2,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#23\">m140506_102106_rbac_init::getAuthManager<\/a>"],[0,3,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#36\">m140506_102106_rbac_init::isMSSQL<\/a>"],[0,1,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#41\">m140506_102106_rbac_init::isOracle<\/a>"],[0,3,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#49\">m140506_102106_rbac_init::up<\/a>"],[0,2,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#143\">m140506_102106_rbac_init::down<\/a>"],[0,3,"<a href=\"migrations\/m140506_102106_rbac_init.php.html#159\">m140506_102106_rbac_init::buildFkClause<\/a>"],[0,2,"<a href=\"migrations\/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#29\">m170907_052038_rbac_add_index_on_auth_assignment_user_id::getAuthManager<\/a>"],[0,1,"<a href=\"migrations\/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#42\">m170907_052038_rbac_add_index_on_auth_assignment_user_id::up<\/a>"],[0,1,"<a href=\"migrations\/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php.html#53\">m170907_052038_rbac_add_index_on_auth_assignment_user_id::down<\/a>"],[0,2,"<a href=\"migrations\/m180523_151638_rbac_updates_indexes_without_prefix.php.html#26\">m180523_151638_rbac_updates_indexes_without_prefix::getAuthManager<\/a>"],[0,1,"<a href=\"migrations\/m180523_151638_rbac_updates_indexes_without_prefix.php.html#39\">m180523_151638_rbac_updates_indexes_without_prefix::up<\/a>"],[0,1,"<a href=\"migrations\/m180523_151638_rbac_updates_indexes_without_prefix.php.html#54\">m180523_151638_rbac_updates_indexes_without_prefix::down<\/a>"],[0,2,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#27\">m200409_110543_rbac_update_mssql_trigger::getAuthManager<\/a>"],[0,1,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#37\">m200409_110543_rbac_update_mssql_trigger::findForeignKeyName<\/a>"],[0,3,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#54\">m200409_110543_rbac_update_mssql_trigger::isMSSQL<\/a>"],[0,2,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#62\">m200409_110543_rbac_update_mssql_trigger::up<\/a>"],[0,2,"<a href=\"migrations\/m200409_110543_rbac_update_mssql_trigger.php.html#117\">m200409_110543_rbac_update_mssql_trigger::down<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

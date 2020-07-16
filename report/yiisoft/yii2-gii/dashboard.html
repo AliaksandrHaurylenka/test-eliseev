@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\laragon\www\test-eliseev\vendor\yiisoft\yii2-gii</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">D:\laragon\www\test-eliseev\vendor</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">yiisoft</a></li>
+         <li class="breadcrumb-item"><a href="index.html">yii2-gii</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CodeFile.php.html#25">yii\gii\CodeFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#39">yii\gii\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#43">yii\gii\Module</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#18">yii\gii\components\ActiveField</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/DiffRendererHtmlInline.php.html#16">yii\gii\components\DiffRendererHtmlInline</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#16">yii\gii\console\GenerateAction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#28">yii\gii\console\GenerateController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#19">yii\gii\controllers\DefaultController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#28">yii\gii\generators\controller\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#33">yii\gii\generators\crud\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#23">yii\gii\generators\extension\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#22">yii\gii\generators\form\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#27">yii\gii\generators\model\Generator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#24">yii\gii\generators\module\Generator</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/generators/model/Generator.php.html#27">yii\gii\generators\model\Generator</a></td><td class="text-right">33306</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#33">yii\gii\generators\crud\Generator</a></td><td class="text-right">11990</td></tr>
+       <tr><td><a href="src/Generator.php.html#39">yii\gii\Generator</a></td><td class="text-right">3080</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#25">yii\gii\CodeFile</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#28">yii\gii\console\GenerateController</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#28">yii\gii\generators\controller\Generator</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#19">yii\gii\controllers\DefaultController</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Module.php.html#43">yii\gii\Module</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#16">yii\gii\console\GenerateAction</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#24">yii\gii\generators\module\Generator</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/components/DiffRendererHtmlInline.php.html#16">yii\gii\components\DiffRendererHtmlInline</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#22">yii\gii\generators\form\Generator</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#18">yii\gii\components\ActiveField</a></td><td class="text-right">132</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CodeFile.php.html#64"><abbr title="yii\gii\CodeFile::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#33"><abbr title="yii\gii\generators\form\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#127"><abbr title="yii\gii\generators\extension\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#135"><abbr title="yii\gii\generators\extension\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#193"><abbr title="yii\gii\generators\extension\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#201"><abbr title="yii\gii\generators\extension\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#224"><abbr title="yii\gii\generators\extension\Generator::getOutputPath">getOutputPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#232"><abbr title="yii\gii\generators\extension\Generator::getKeywordsArrayJson">getKeywordsArrayJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#240"><abbr title="yii\gii\generators\extension\Generator::optsType">optsType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#253"><abbr title="yii\gii\generators\extension\Generator::optsLicense">optsLicense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#41"><abbr title="yii\gii\generators\form\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#99"><abbr title="yii\gii\generators\extension\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#49"><abbr title="yii\gii\generators\form\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#63"><abbr title="yii\gii\generators\form\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#82"><abbr title="yii\gii\generators\form\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#95"><abbr title="yii\gii\generators\form\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#103"><abbr title="yii\gii\generators\form\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#111"><abbr title="yii\gii\generators\form\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#124"><abbr title="yii\gii\generators\form\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#138"><abbr title="yii\gii\generators\form\Generator::validateViewPath">validateViewPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#111"><abbr title="yii\gii\generators\extension\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#57"><abbr title="yii\gii\generators\extension\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#54"><abbr title="yii\gii\generators\model\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#379"><abbr title="yii\gii\generators\crud\Generator::getSearchAttributes">getSearchAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#168"><abbr title="yii\gii\generators\crud\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#198"><abbr title="yii\gii\generators\crud\Generator::getControllerID">getControllerID</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#209"><abbr title="yii\gii\generators\crud\Generator::getViewPath">getViewPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#221"><abbr title="yii\gii\generators\crud\Generator::getNameAttribute">getNameAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#240"><abbr title="yii\gii\generators\crud\Generator::generateActiveField">generateActiveField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#286"><abbr title="yii\gii\generators\crud\Generator::generateActiveSearchField">generateActiveSearchField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#306"><abbr title="yii\gii\generators\crud\Generator::generateColumnFormat">generateColumnFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#335"><abbr title="yii\gii\generators\crud\Generator::generateSearchRules">generateSearchRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#388"><abbr title="yii\gii\generators\crud\Generator::generateSearchLabels">generateSearchLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#49"><abbr title="yii\gii\generators\extension\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#417"><abbr title="yii\gii\generators\crud\Generator::generateSearchConditions">generateSearchConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#476"><abbr title="yii\gii\generators\crud\Generator::generateUrlParams">generateUrlParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#505"><abbr title="yii\gii\generators\crud\Generator::generateActionParams">generateActionParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#521"><abbr title="yii\gii\generators\crud\Generator::generateActionParamComments">generateActionParamComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#550"><abbr title="yii\gii\generators\crud\Generator::getTableSchema">getTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#564"><abbr title="yii\gii\generators\crud\Generator::getColumnNames">getColumnNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#583"><abbr title="yii\gii\generators\crud\Generator::getClassDbDriverName">getClassDbDriverName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/extension/Generator.php.html#41"><abbr title="yii\gii\generators\extension\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#149"><abbr title="yii\gii\generators\form\Generator::getModelAttributes">getModelAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#62"><abbr title="yii\gii\generators\model\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#147"><abbr title="yii\gii\generators\crud\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#33"><abbr title="yii\gii\generators\module\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#842"><abbr title="yii\gii\generators\model\Generator::validateTableName">validateTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#869"><abbr title="yii\gii\generators\model\Generator::getTableNames">getTableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#907"><abbr title="yii\gii\generators\model\Generator::generateTableName">generateTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#928"><abbr title="yii\gii\generators\model\Generator::generateClassName">generateClassName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#982"><abbr title="yii\gii\generators\model\Generator::generateQueryClassName">generateQueryClassName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#994"><abbr title="yii\gii\generators\model\Generator::getDbConnection">getDbConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#1004"><abbr title="yii\gii\generators\model\Generator::getDbDriverName">getDbDriverName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#1017"><abbr title="yii\gii\generators\model\Generator::isColumnAutoIncremental">isColumnAutoIncremental</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#41"><abbr title="yii\gii\generators\module\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#816"><abbr title="yii\gii\generators\model\Generator::validateNamespace">validateNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#49"><abbr title="yii\gii\generators\module\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#63"><abbr title="yii\gii\generators\module\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#74"><abbr title="yii\gii\generators\module\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#85"><abbr title="yii\gii\generators\module\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#114"><abbr title="yii\gii\generators\module\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#122"><abbr title="yii\gii\generators\module\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#145"><abbr title="yii\gii\generators\module\Generator::validateModuleClass">validateModuleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#158"><abbr title="yii\gii\generators\module\Generator::getModulePath">getModulePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#829"><abbr title="yii\gii\generators\model\Generator::validateModelClass">validateModelClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#802"><abbr title="yii\gii\generators\model\Generator::validateDb">validateDb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#70"><abbr title="yii\gii\generators\model\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#312"><abbr title="yii\gii\generators\model\Generator::generateLabels">generateLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#96"><abbr title="yii\gii\generators\model\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#120"><abbr title="yii\gii\generators\model\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#166"><abbr title="yii\gii\generators\model\Generator::autoCompleteData">autoCompleteData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#183"><abbr title="yii\gii\generators\model\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#192"><abbr title="yii\gii\generators\model\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#204"><abbr title="yii\gii\generators\model\Generator::getTablePrefix">getTablePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#217"><abbr title="yii\gii\generators\model\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#264"><abbr title="yii\gii\generators\model\Generator::generateProperties">generateProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#339"><abbr title="yii\gii\generators\model\Generator::generateRelationsClassHints">generateRelationsClassHints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#751"><abbr title="yii\gii\generators\model\Generator::generateRelationName">generateRelationName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#368"><abbr title="yii\gii\generators\model\Generator::generateRules">generateRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#474"><abbr title="yii\gii\generators\model\Generator::generateManyManyRelations">generateManyManyRelations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#522"><abbr title="yii\gii\generators\model\Generator::getSchemaNames">getSchemaNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#554"><abbr title="yii\gii\generators\model\Generator::generateRelations">generateRelations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#619"><abbr title="yii\gii\generators\model\Generator::addInverseRelations">addInverseRelations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#669"><abbr title="yii\gii\generators\model\Generator::isHasManyRelation">isHasManyRelation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#690"><abbr title="yii\gii\generators\model\Generator::generateRelationLink">generateRelationLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#706"><abbr title="yii\gii\generators\model\Generator::checkJunctionTable">checkJunctionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#155"><abbr title="yii\gii\generators\crud\Generator::validateModelClass">validateModelClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#139"><abbr title="yii\gii\generators\crud\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#82"><abbr title="yii\gii\CodeFile::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#132"><abbr title="yii\gii\Module::resetGlobalSettings">resetGlobalSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#325"><abbr title="yii\gii\Generator::validateTemplate">validateTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#347"><abbr title="yii\gii\Generator::validateClass">validateClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#371"><abbr title="yii\gii\Generator::validateNewClass">validateNewClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#390"><abbr title="yii\gii\Generator::validateMessageCategory">validateMessageCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#401"><abbr title="yii\gii\Generator::isReservedKeyword">isReservedKeyword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#495"><abbr title="yii\gii\Generator::generateString">generateString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#86"><abbr title="yii\gii\Module::bootstrap">bootstrap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#106"><abbr title="yii\gii\Module::beforeAction">beforeAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#142"><abbr title="yii\gii\Module::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#295"><abbr title="yii\gii\Generator::getTemplatePath">getTemplatePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#159"><abbr title="yii\gii\Module::coreGenerators">coreGenerators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Module.php.html#175"><abbr title="yii\gii\Module::defaultVersion">defaultVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#33"><abbr title="yii\gii\components\ActiveField::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#59"><abbr title="yii\gii\components\ActiveField::sticky">sticky</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#71"><abbr title="yii\gii\components\ActiveField::autoComplete">autoComplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#90"><abbr title="yii\gii\components\ActiveField::hint">hint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#103"><abbr title="yii\gii\components\ActiveField::checkbox">checkbox</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#115"><abbr title="yii\gii\components\ActiveField::radio">radio</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#312"><abbr title="yii\gii\Generator::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#267"><abbr title="yii\gii\Generator::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#31"><abbr title="yii\gii\console\GenerateAction::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#118"><abbr title="yii\gii\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#116"><abbr title="yii\gii\CodeFile::getRelativePath">getRelativePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#128"><abbr title="yii\gii\CodeFile::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#142"><abbr title="yii\gii\CodeFile::preview">preview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#164"><abbr title="yii\gii\CodeFile::diff">diff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#183"><abbr title="yii\gii\CodeFile::renderDiff">renderDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#78"><abbr title="yii\gii\Generator::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#92"><abbr title="yii\gii\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#107"><abbr title="yii\gii\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#129"><abbr title="yii\gii\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#254"><abbr title="yii\gii\Generator::getStickyDataFile">getStickyDataFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#144"><abbr title="yii\gii\Generator::autoCompleteData">autoCompleteData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#154"><abbr title="yii\gii\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#165"><abbr title="yii\gii\Generator::formView">formView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#178"><abbr title="yii\gii\Generator::defaultTemplate">defaultTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#188"><abbr title="yii\gii\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#205"><abbr title="yii\gii\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#217"><abbr title="yii\gii\Generator::loadStickyAttributes">loadStickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Generator.php.html#237"><abbr title="yii\gii\Generator::saveStickyAttributes">saveStickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/components/DiffRendererHtmlInline.php.html#24"><abbr title="yii\gii\components\DiffRendererHtmlInline::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#42"><abbr title="yii\gii\console\GenerateAction::displayValidationErrors">displayValidationErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#112"><abbr title="yii\gii\generators\crud\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#191"><abbr title="yii\gii\generators\controller\Generator::getActionIDs">getActionIDs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#68"><abbr title="yii\gii\generators\controller\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#84"><abbr title="yii\gii\generators\controller\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#97"><abbr title="yii\gii\generators\controller\Generator::requiredTemplates">requiredTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#108"><abbr title="yii\gii\generators\controller\Generator::stickyAttributes">stickyAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#116"><abbr title="yii\gii\generators\controller\Generator::hints">hints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#139"><abbr title="yii\gii\generators\controller\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#150"><abbr title="yii\gii\generators\controller\Generator::getLinkToTry">getLinkToTry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#168"><abbr title="yii\gii\generators\controller\Generator::generate">generate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#202"><abbr title="yii\gii\generators\controller\Generator::getControllerFile">getControllerFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#51"><abbr title="yii\gii\generators\controller\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#210"><abbr title="yii\gii\generators\controller\Generator::getControllerID">getControllerID</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#223"><abbr title="yii\gii\generators\controller\Generator::getControllerSubPath">getControllerSubPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#238"><abbr title="yii\gii\generators\controller\Generator::getViewFile">getViewFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#250"><abbr title="yii\gii\generators\controller\Generator::getControllerNamespace">getControllerNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#56"><abbr title="yii\gii\generators\crud\Generator::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#64"><abbr title="yii\gii\generators\crud\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#73"><abbr title="yii\gii\generators\crud\Generator::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#96"><abbr title="yii\gii\generators\crud\Generator::attributeLabels">attributeLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#59"><abbr title="yii\gii\generators\controller\Generator::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#132"><abbr title="yii\gii\controllers\DefaultController::loadGenerator">loadGenerator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#51"><abbr title="yii\gii\console\GenerateAction::generateCode">generateCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#142"><abbr title="yii\gii\console\GenerateController::getActionHelpSummary">getActionHelpSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#54"><abbr title="yii\gii\console\GenerateController::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#62"><abbr title="yii\gii\console\GenerateController::__set">__set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#70"><abbr title="yii\gii\console\GenerateController::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#81"><abbr title="yii\gii\console\GenerateController::createAction">createAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#94"><abbr title="yii\gii\console\GenerateController::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#106"><abbr title="yii\gii\console\GenerateController::actionIndex">actionIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#114"><abbr title="yii\gii\console\GenerateController::getUniqueID">getUniqueID</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#122"><abbr title="yii\gii\console\GenerateController::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#155"><abbr title="yii\gii\console\GenerateController::getActionHelp">getActionHelp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#116"><abbr title="yii\gii\controllers\DefaultController::actionAction">actionAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#170"><abbr title="yii\gii\console\GenerateController::getActionArgsHelp">getActionArgsHelp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#178"><abbr title="yii\gii\console\GenerateController::getActionOptionsHelp">getActionOptionsHelp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#202"><abbr title="yii\gii\console\GenerateController::formatHint">formatHint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#35"><abbr title="yii\gii\controllers\DefaultController::beforeAction">beforeAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#42"><abbr title="yii\gii\controllers\DefaultController::actionIndex">actionIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#49"><abbr title="yii\gii\controllers\DefaultController::actionView">actionView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#75"><abbr title="yii\gii\controllers\DefaultController::actionPreview">actionPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#92"><abbr title="yii\gii\controllers\DefaultController::actionDiff">actionDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#166"><abbr title="yii\gii\generators\module\Generator::getControllerNamespace">getControllerNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/generators/model/Generator.php.html#368"><abbr title="yii\gii\generators\model\Generator::generateRules">generateRules</abbr></a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#417"><abbr title="yii\gii\generators\crud\Generator::generateSearchConditions">generateSearchConditions</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#335"><abbr title="yii\gii\generators\crud\Generator::generateSearchRules">generateSearchRules</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#264"><abbr title="yii\gii\generators\model\Generator::generateProperties">generateProperties</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/components/DiffRendererHtmlInline.php.html#24"><abbr title="yii\gii\components\DiffRendererHtmlInline::render">render</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#928"><abbr title="yii\gii\generators\model\Generator::generateClassName">generateClassName</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#51"><abbr title="yii\gii\console\GenerateAction::generateCode">generateCode</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#240"><abbr title="yii\gii\generators\crud\Generator::generateActiveField">generateActiveField</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#751"><abbr title="yii\gii\generators\model\Generator::generateRelationName">generateRelationName</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#554"><abbr title="yii\gii\generators\model\Generator::generateRelations">generateRelations</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#869"><abbr title="yii\gii\generators\model\Generator::getTableNames">getTableNames</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#82"><abbr title="yii\gii\CodeFile::save">save</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#706"><abbr title="yii\gii\generators\model\Generator::checkJunctionTable">checkJunctionTable</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#522"><abbr title="yii\gii\generators\model\Generator::getSchemaNames">getSchemaNames</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#312"><abbr title="yii\gii\generators\model\Generator::generateLabels">generateLabels</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#339"><abbr title="yii\gii\generators\model\Generator::generateRelationsClassHints">generateRelationsClassHints</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Generator.php.html#267"><abbr title="yii\gii\Generator::save">save</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#168"><abbr title="yii\gii\generators\crud\Generator::generate">generate</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#306"><abbr title="yii\gii\generators\crud\Generator::generateColumnFormat">generateColumnFormat</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#49"><abbr title="yii\gii\controllers\DefaultController::actionView">actionView</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#178"><abbr title="yii\gii\console\GenerateController::getActionOptionsHelp">getActionOptionsHelp</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Module.php.html#106"><abbr title="yii\gii\Module::beforeAction">beforeAction</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#521"><abbr title="yii\gii\generators\crud\Generator::generateActionParamComments">generateActionParamComments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Module.php.html#142"><abbr title="yii\gii\Module::checkAccess">checkAccess</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Generator.php.html#347"><abbr title="yii\gii\Generator::validateClass">validateClass</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#842"><abbr title="yii\gii\generators\model\Generator::validateTableName">validateTableName</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#388"><abbr title="yii\gii\generators\crud\Generator::generateSearchLabels">generateSearchLabels</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#217"><abbr title="yii\gii\generators\model\Generator::generate">generate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#476"><abbr title="yii\gii\generators\crud\Generator::generateUrlParams">generateUrlParams</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#75"><abbr title="yii\gii\controllers\DefaultController::actionPreview">actionPreview</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#145"><abbr title="yii\gii\generators\module\Generator::validateModuleClass">validateModuleClass</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#619"><abbr title="yii\gii\generators\model\Generator::addInverseRelations">addInverseRelations</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#33"><abbr title="yii\gii\components\ActiveField::init">init</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#183"><abbr title="yii\gii\CodeFile::renderDiff">renderDiff</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#829"><abbr title="yii\gii\generators\model\Generator::validateModelClass">validateModelClass</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Generator.php.html#217"><abbr title="yii\gii\Generator::loadStickyAttributes">loadStickyAttributes</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#474"><abbr title="yii\gii\generators\model\Generator::generateManyManyRelations">generateManyManyRelations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#1017"><abbr title="yii\gii\generators\model\Generator::isColumnAutoIncremental">isColumnAutoIncremental</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#142"><abbr title="yii\gii\CodeFile::preview">preview</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#907"><abbr title="yii\gii\generators\model\Generator::generateTableName">generateTableName</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Generator.php.html#371"><abbr title="yii\gii\Generator::validateNewClass">validateNewClass</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Generator.php.html#325"><abbr title="yii\gii\Generator::validateTemplate">validateTemplate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#92"><abbr title="yii\gii\controllers\DefaultController::actionDiff">actionDiff</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Generator.php.html#495"><abbr title="yii\gii\Generator::generateString">generateString</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#669"><abbr title="yii\gii\generators\model\Generator::isHasManyRelation">isHasManyRelation</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#221"><abbr title="yii\gii\generators\crud\Generator::getNameAttribute">getNameAttribute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#138"><abbr title="yii\gii\generators\form\Generator::validateViewPath">validateViewPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#802"><abbr title="yii\gii\generators\model\Generator::validateDb">validateDb</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#982"><abbr title="yii\gii\generators\model\Generator::generateQueryClassName">generateQueryClassName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#64"><abbr title="yii\gii\CodeFile::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#286"><abbr title="yii\gii\generators\crud\Generator::generateActiveSearchField">generateActiveSearchField</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Generator.php.html#390"><abbr title="yii\gii\Generator::validateMessageCategory">validateMessageCategory</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#223"><abbr title="yii\gii\generators\controller\Generator::getControllerSubPath">getControllerSubPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#150"><abbr title="yii\gii\generators\controller\Generator::getLinkToTry">getLinkToTry</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#164"><abbr title="yii\gii\CodeFile::diff">diff</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Generator.php.html#78"><abbr title="yii\gii\Generator::init">init</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Module.php.html#86"><abbr title="yii\gii\Module::bootstrap">bootstrap</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/components/ActiveField.php.html#71"><abbr title="yii\gii\components\ActiveField::autoComplete">autoComplete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#690"><abbr title="yii\gii\generators\model\Generator::generateRelationLink">generateRelationLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Module.php.html#175"><abbr title="yii\gii\Module::defaultVersion">defaultVersion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Module.php.html#132"><abbr title="yii\gii\Module::resetGlobalSettings">resetGlobalSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#816"><abbr title="yii\gii\generators\model\Generator::validateNamespace">validateNamespace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Generator.php.html#237"><abbr title="yii\gii\Generator::saveStickyAttributes">saveStickyAttributes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Generator.php.html#295"><abbr title="yii\gii\Generator::getTemplatePath">getTemplatePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#42"><abbr title="yii\gii\console\GenerateAction::displayValidationErrors">displayValidationErrors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#128"><abbr title="yii\gii\CodeFile::getType">getType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#1004"><abbr title="yii\gii\generators\model\Generator::getDbDriverName">getDbDriverName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CodeFile.php.html#116"><abbr title="yii\gii\CodeFile::getRelativePath">getRelativePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/module/Generator.php.html#85"><abbr title="yii\gii\generators\module\Generator::successMessage">successMessage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateAction.php.html#31"><abbr title="yii\gii\console\GenerateAction::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#70"><abbr title="yii\gii\console\GenerateController::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#54"><abbr title="yii\gii\console\GenerateController::__get">__get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#116"><abbr title="yii\gii\controllers\DefaultController::actionAction">actionAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#238"><abbr title="yii\gii\generators\controller\Generator::getViewFile">getViewFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/controller/Generator.php.html#168"><abbr title="yii\gii\generators\controller\Generator::generate">generate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#505"><abbr title="yii\gii\generators\crud\Generator::generateActionParams">generateActionParams</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/controllers/DefaultController.php.html#132"><abbr title="yii\gii\controllers\DefaultController::loadGenerator">loadGenerator</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#550"><abbr title="yii\gii\generators\crud\Generator::getTableSchema">getTableSchema</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#564"><abbr title="yii\gii\generators\crud\Generator::getColumnNames">getColumnNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#583"><abbr title="yii\gii\generators\crud\Generator::getClassDbDriverName">getClassDbDriverName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/form/Generator.php.html#149"><abbr title="yii\gii\generators\form\Generator::getModelAttributes">getModelAttributes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#209"><abbr title="yii\gii\generators\crud\Generator::getViewPath">getViewPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#166"><abbr title="yii\gii\generators\model\Generator::autoCompleteData">autoCompleteData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/model/Generator.php.html#204"><abbr title="yii\gii\generators\model\Generator::getTablePrefix">getTablePrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#155"><abbr title="yii\gii\console\GenerateController::getActionHelp">getActionHelp</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#142"><abbr title="yii\gii\console\GenerateController::getActionHelpSummary">getActionHelpSummary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#122"><abbr title="yii\gii\console\GenerateController::options">options</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#94"><abbr title="yii\gii\console\GenerateController::actions">actions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/console/GenerateController.php.html#81"><abbr title="yii\gii\console\GenerateController::createAction">createAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/generators/crud/Generator.php.html#155"><abbr title="yii\gii\generators\crud\Generator::validateModelClass">validateModelClass</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.11</a> with <a href="https://xdebug.org/">Xdebug 2.9.6</a> and <a href="https://phpunit.de/">PHPUnit 8.5.8</a> at Thu Jul 16 12:46:45 UTC 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([175,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,27,"<a href=\"src\/CodeFile.php.html#25\">yii\\gii\\CodeFile<\/a>"],[0,55,"<a href=\"src\/Generator.php.html#39\">yii\\gii\\Generator<\/a>"],[100,0,"<a href=\"src\/GiiAsset.php.html#18\">yii\\gii\\GiiAsset<\/a>"],[0,20,"<a href=\"src\/Module.php.html#43\">yii\\gii\\Module<\/a>"],[0,11,"<a href=\"src\/components\/ActiveField.php.html#18\">yii\\gii\\components\\ActiveField<\/a>"],[0,14,"<a href=\"src\/components\/DiffRendererHtmlInline.php.html#16\">yii\\gii\\components\\DiffRendererHtmlInline<\/a>"],[0,17,"<a href=\"src\/console\/GenerateAction.php.html#16\">yii\\gii\\console\\GenerateAction<\/a>"],[0,25,"<a href=\"src\/console\/GenerateController.php.html#28\">yii\\gii\\console\\GenerateController<\/a>"],[0,21,"<a href=\"src\/controllers\/DefaultController.php.html#19\">yii\\gii\\controllers\\DefaultController<\/a>"],[0,22,"<a href=\"src\/generators\/controller\/Generator.php.html#28\">yii\\gii\\generators\\controller\\Generator<\/a>"],[0,109,"<a href=\"src\/generators\/crud\/Generator.php.html#33\">yii\\gii\\generators\\crud\\Generator<\/a>"],[0,13,"<a href=\"src\/generators\/extension\/Generator.php.html#23\">yii\\gii\\generators\\extension\\Generator<\/a>"],[0,14,"<a href=\"src\/generators\/form\/Generator.php.html#22\">yii\\gii\\generators\\form\\Generator<\/a>"],[0,182,"<a href=\"src\/generators\/model\/Generator.php.html#27\">yii\\gii\\generators\\model\\Generator<\/a>"],[0,16,"<a href=\"src\/generators\/module\/Generator.php.html#24\">yii\\gii\\generators\\module\\Generator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"src\/CodeFile.php.html#64\">yii\\gii\\CodeFile::__construct<\/a>"],[0,8,"<a href=\"src\/CodeFile.php.html#82\">yii\\gii\\CodeFile::save<\/a>"],[0,2,"<a href=\"src\/CodeFile.php.html#116\">yii\\gii\\CodeFile::getRelativePath<\/a>"],[0,2,"<a href=\"src\/CodeFile.php.html#128\">yii\\gii\\CodeFile::getType<\/a>"],[0,4,"<a href=\"src\/CodeFile.php.html#142\">yii\\gii\\CodeFile::preview<\/a>"],[0,3,"<a href=\"src\/CodeFile.php.html#164\">yii\\gii\\CodeFile::diff<\/a>"],[0,5,"<a href=\"src\/CodeFile.php.html#183\">yii\\gii\\CodeFile::renderDiff<\/a>"],[100,1,"<a href=\"src\/Generator.php.html#65\">yii\\gii\\Generator::getName<\/a>"],[100,1,"<a href=\"src\/Generator.php.html#73\">yii\\gii\\Generator::generate<\/a>"],[0,3,"<a href=\"src\/Generator.php.html#78\">yii\\gii\\Generator::init<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#92\">yii\\gii\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#107\">yii\\gii\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#118\">yii\\gii\\Generator::stickyAttributes<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#129\">yii\\gii\\Generator::hints<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#144\">yii\\gii\\Generator::autoCompleteData<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#154\">yii\\gii\\Generator::successMessage<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#165\">yii\\gii\\Generator::formView<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#178\">yii\\gii\\Generator::defaultTemplate<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#188\">yii\\gii\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#205\">yii\\gii\\Generator::rules<\/a>"],[0,5,"<a href=\"src\/Generator.php.html#217\">yii\\gii\\Generator::loadStickyAttributes<\/a>"],[0,2,"<a href=\"src\/Generator.php.html#237\">yii\\gii\\Generator::saveStickyAttributes<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#254\">yii\\gii\\Generator::getStickyDataFile<\/a>"],[0,7,"<a href=\"src\/Generator.php.html#267\">yii\\gii\\Generator::save<\/a>"],[0,2,"<a href=\"src\/Generator.php.html#295\">yii\\gii\\Generator::getTemplatePath<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#312\">yii\\gii\\Generator::render<\/a>"],[0,4,"<a href=\"src\/Generator.php.html#325\">yii\\gii\\Generator::validateTemplate<\/a>"],[0,6,"<a href=\"src\/Generator.php.html#347\">yii\\gii\\Generator::validateClass<\/a>"],[0,4,"<a href=\"src\/Generator.php.html#371\">yii\\gii\\Generator::validateNewClass<\/a>"],[0,3,"<a href=\"src\/Generator.php.html#390\">yii\\gii\\Generator::validateMessageCategory<\/a>"],[0,1,"<a href=\"src\/Generator.php.html#401\">yii\\gii\\Generator::isReservedKeyword<\/a>"],[0,4,"<a href=\"src\/Generator.php.html#495\">yii\\gii\\Generator::generateString<\/a>"],[0,3,"<a href=\"src\/Module.php.html#86\">yii\\gii\\Module::bootstrap<\/a>"],[0,6,"<a href=\"src\/Module.php.html#106\">yii\\gii\\Module::beforeAction<\/a>"],[0,2,"<a href=\"src\/Module.php.html#132\">yii\\gii\\Module::resetGlobalSettings<\/a>"],[0,6,"<a href=\"src\/Module.php.html#142\">yii\\gii\\Module::checkAccess<\/a>"],[0,1,"<a href=\"src\/Module.php.html#159\">yii\\gii\\Module::coreGenerators<\/a>"],[0,2,"<a href=\"src\/Module.php.html#175\">yii\\gii\\Module::defaultVersion<\/a>"],[0,5,"<a href=\"src\/components\/ActiveField.php.html#33\">yii\\gii\\components\\ActiveField::init<\/a>"],[0,1,"<a href=\"src\/components\/ActiveField.php.html#59\">yii\\gii\\components\\ActiveField::sticky<\/a>"],[0,2,"<a href=\"src\/components\/ActiveField.php.html#71\">yii\\gii\\components\\ActiveField::autoComplete<\/a>"],[0,1,"<a href=\"src\/components\/ActiveField.php.html#90\">yii\\gii\\components\\ActiveField::hint<\/a>"],[0,1,"<a href=\"src\/components\/ActiveField.php.html#103\">yii\\gii\\components\\ActiveField::checkbox<\/a>"],[0,1,"<a href=\"src\/components\/ActiveField.php.html#115\">yii\\gii\\components\\ActiveField::radio<\/a>"],[0,14,"<a href=\"src\/components\/DiffRendererHtmlInline.php.html#24\">yii\\gii\\components\\DiffRendererHtmlInline::render<\/a>"],[0,2,"<a href=\"src\/console\/GenerateAction.php.html#31\">yii\\gii\\console\\GenerateAction::run<\/a>"],[0,2,"<a href=\"src\/console\/GenerateAction.php.html#42\">yii\\gii\\console\\GenerateAction::displayValidationErrors<\/a>"],[0,13,"<a href=\"src\/console\/GenerateAction.php.html#51\">yii\\gii\\console\\GenerateAction::generateCode<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#54\">yii\\gii\\console\\GenerateController::__get<\/a>"],[0,1,"<a href=\"src\/console\/GenerateController.php.html#62\">yii\\gii\\console\\GenerateController::__set<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#70\">yii\\gii\\console\\GenerateController::init<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#81\">yii\\gii\\console\\GenerateController::createAction<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#94\">yii\\gii\\console\\GenerateController::actions<\/a>"],[0,1,"<a href=\"src\/console\/GenerateController.php.html#106\">yii\\gii\\console\\GenerateController::actionIndex<\/a>"],[0,1,"<a href=\"src\/console\/GenerateController.php.html#114\">yii\\gii\\console\\GenerateController::getUniqueID<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#122\">yii\\gii\\console\\GenerateController::options<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#142\">yii\\gii\\console\\GenerateController::getActionHelpSummary<\/a>"],[0,2,"<a href=\"src\/console\/GenerateController.php.html#155\">yii\\gii\\console\\GenerateController::getActionHelp<\/a>"],[0,1,"<a href=\"src\/console\/GenerateController.php.html#170\">yii\\gii\\console\\GenerateController::getActionArgsHelp<\/a>"],[0,6,"<a href=\"src\/console\/GenerateController.php.html#178\">yii\\gii\\console\\GenerateController::getActionOptionsHelp<\/a>"],[0,1,"<a href=\"src\/console\/GenerateController.php.html#202\">yii\\gii\\console\\GenerateController::formatHint<\/a>"],[0,1,"<a href=\"src\/controllers\/DefaultController.php.html#35\">yii\\gii\\controllers\\DefaultController::beforeAction<\/a>"],[0,1,"<a href=\"src\/controllers\/DefaultController.php.html#42\">yii\\gii\\controllers\\DefaultController::actionIndex<\/a>"],[0,6,"<a href=\"src\/controllers\/DefaultController.php.html#49\">yii\\gii\\controllers\\DefaultController::actionView<\/a>"],[0,5,"<a href=\"src\/controllers\/DefaultController.php.html#75\">yii\\gii\\controllers\\DefaultController::actionPreview<\/a>"],[0,4,"<a href=\"src\/controllers\/DefaultController.php.html#92\">yii\\gii\\controllers\\DefaultController::actionDiff<\/a>"],[0,2,"<a href=\"src\/controllers\/DefaultController.php.html#116\">yii\\gii\\controllers\\DefaultController::actionAction<\/a>"],[0,2,"<a href=\"src\/controllers\/DefaultController.php.html#132\">yii\\gii\\controllers\\DefaultController::loadGenerator<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#51\">yii\\gii\\generators\\controller\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#59\">yii\\gii\\generators\\controller\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#68\">yii\\gii\\generators\\controller\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#84\">yii\\gii\\generators\\controller\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#97\">yii\\gii\\generators\\controller\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#108\">yii\\gii\\generators\\controller\\Generator::stickyAttributes<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#116\">yii\\gii\\generators\\controller\\Generator::hints<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#139\">yii\\gii\\generators\\controller\\Generator::successMessage<\/a>"],[0,3,"<a href=\"src\/generators\/controller\/Generator.php.html#150\">yii\\gii\\generators\\controller\\Generator::getLinkToTry<\/a>"],[0,2,"<a href=\"src\/generators\/controller\/Generator.php.html#168\">yii\\gii\\generators\\controller\\Generator::generate<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#191\">yii\\gii\\generators\\controller\\Generator::getActionIDs<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#202\">yii\\gii\\generators\\controller\\Generator::getControllerFile<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#210\">yii\\gii\\generators\\controller\\Generator::getControllerID<\/a>"],[0,3,"<a href=\"src\/generators\/controller\/Generator.php.html#223\">yii\\gii\\generators\\controller\\Generator::getControllerSubPath<\/a>"],[0,2,"<a href=\"src\/generators\/controller\/Generator.php.html#238\">yii\\gii\\generators\\controller\\Generator::getViewFile<\/a>"],[0,1,"<a href=\"src\/generators\/controller\/Generator.php.html#250\">yii\\gii\\generators\\controller\\Generator::getControllerNamespace<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#56\">yii\\gii\\generators\\crud\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#64\">yii\\gii\\generators\\crud\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#73\">yii\\gii\\generators\\crud\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#96\">yii\\gii\\generators\\crud\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#112\">yii\\gii\\generators\\crud\\Generator::hints<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#139\">yii\\gii\\generators\\crud\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#147\">yii\\gii\\generators\\crud\\Generator::stickyAttributes<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#155\">yii\\gii\\generators\\crud\\Generator::validateModelClass<\/a>"],[0,7,"<a href=\"src\/generators\/crud\/Generator.php.html#168\">yii\\gii\\generators\\crud\\Generator::generate<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#198\">yii\\gii\\generators\\crud\\Generator::getControllerID<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#209\">yii\\gii\\generators\\crud\\Generator::getViewPath<\/a>"],[0,4,"<a href=\"src\/generators\/crud\/Generator.php.html#221\">yii\\gii\\generators\\crud\\Generator::getNameAttribute<\/a>"],[0,12,"<a href=\"src\/generators\/crud\/Generator.php.html#240\">yii\\gii\\generators\\crud\\Generator::generateActiveField<\/a>"],[0,3,"<a href=\"src\/generators\/crud\/Generator.php.html#286\">yii\\gii\\generators\\crud\\Generator::generateActiveSearchField<\/a>"],[0,7,"<a href=\"src\/generators\/crud\/Generator.php.html#306\">yii\\gii\\generators\\crud\\Generator::generateColumnFormat<\/a>"],[0,17,"<a href=\"src\/generators\/crud\/Generator.php.html#335\">yii\\gii\\generators\\crud\\Generator::generateSearchRules<\/a>"],[0,1,"<a href=\"src\/generators\/crud\/Generator.php.html#379\">yii\\gii\\generators\\crud\\Generator::getSearchAttributes<\/a>"],[0,6,"<a href=\"src\/generators\/crud\/Generator.php.html#388\">yii\\gii\\generators\\crud\\Generator::generateSearchLabels<\/a>"],[0,21,"<a href=\"src\/generators\/crud\/Generator.php.html#417\">yii\\gii\\generators\\crud\\Generator::generateSearchConditions<\/a>"],[0,5,"<a href=\"src\/generators\/crud\/Generator.php.html#476\">yii\\gii\\generators\\crud\\Generator::generateUrlParams<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#505\">yii\\gii\\generators\\crud\\Generator::generateActionParams<\/a>"],[0,6,"<a href=\"src\/generators\/crud\/Generator.php.html#521\">yii\\gii\\generators\\crud\\Generator::generateActionParamComments<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#550\">yii\\gii\\generators\\crud\\Generator::getTableSchema<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#564\">yii\\gii\\generators\\crud\\Generator::getColumnNames<\/a>"],[0,2,"<a href=\"src\/generators\/crud\/Generator.php.html#583\">yii\\gii\\generators\\crud\\Generator::getClassDbDriverName<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#41\">yii\\gii\\generators\\extension\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#49\">yii\\gii\\generators\\extension\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#57\">yii\\gii\\generators\\extension\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#99\">yii\\gii\\generators\\extension\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#111\">yii\\gii\\generators\\extension\\Generator::hints<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#127\">yii\\gii\\generators\\extension\\Generator::stickyAttributes<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#135\">yii\\gii\\generators\\extension\\Generator::successMessage<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#193\">yii\\gii\\generators\\extension\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#201\">yii\\gii\\generators\\extension\\Generator::generate<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#224\">yii\\gii\\generators\\extension\\Generator::getOutputPath<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#232\">yii\\gii\\generators\\extension\\Generator::getKeywordsArrayJson<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#240\">yii\\gii\\generators\\extension\\Generator::optsType<\/a>"],[0,1,"<a href=\"src\/generators\/extension\/Generator.php.html#253\">yii\\gii\\generators\\extension\\Generator::optsLicense<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#33\">yii\\gii\\generators\\form\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#41\">yii\\gii\\generators\\form\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#49\">yii\\gii\\generators\\form\\Generator::generate<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#63\">yii\\gii\\generators\\form\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#82\">yii\\gii\\generators\\form\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#95\">yii\\gii\\generators\\form\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#103\">yii\\gii\\generators\\form\\Generator::stickyAttributes<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#111\">yii\\gii\\generators\\form\\Generator::hints<\/a>"],[0,1,"<a href=\"src\/generators\/form\/Generator.php.html#124\">yii\\gii\\generators\\form\\Generator::successMessage<\/a>"],[0,3,"<a href=\"src\/generators\/form\/Generator.php.html#138\">yii\\gii\\generators\\form\\Generator::validateViewPath<\/a>"],[0,2,"<a href=\"src\/generators\/form\/Generator.php.html#149\">yii\\gii\\generators\\form\\Generator::getModelAttributes<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#54\">yii\\gii\\generators\\model\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#62\">yii\\gii\\generators\\model\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#70\">yii\\gii\\generators\\model\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#96\">yii\\gii\\generators\\model\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#120\">yii\\gii\\generators\\model\\Generator::hints<\/a>"],[0,2,"<a href=\"src\/generators\/model\/Generator.php.html#166\">yii\\gii\\generators\\model\\Generator::autoCompleteData<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#183\">yii\\gii\\generators\\model\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#192\">yii\\gii\\generators\\model\\Generator::stickyAttributes<\/a>"],[0,2,"<a href=\"src\/generators\/model\/Generator.php.html#204\">yii\\gii\\generators\\model\\Generator::getTablePrefix<\/a>"],[0,5,"<a href=\"src\/generators\/model\/Generator.php.html#217\">yii\\gii\\generators\\model\\Generator::generate<\/a>"],[0,17,"<a href=\"src\/generators\/model\/Generator.php.html#264\">yii\\gii\\generators\\model\\Generator::generateProperties<\/a>"],[0,7,"<a href=\"src\/generators\/model\/Generator.php.html#312\">yii\\gii\\generators\\model\\Generator::generateLabels<\/a>"],[0,7,"<a href=\"src\/generators\/model\/Generator.php.html#339\">yii\\gii\\generators\\model\\Generator::generateRelationsClassHints<\/a>"],[0,32,"<a href=\"src\/generators\/model\/Generator.php.html#368\">yii\\gii\\generators\\model\\Generator::generateRules<\/a>"],[0,4,"<a href=\"src\/generators\/model\/Generator.php.html#474\">yii\\gii\\generators\\model\\Generator::generateManyManyRelations<\/a>"],[0,7,"<a href=\"src\/generators\/model\/Generator.php.html#522\">yii\\gii\\generators\\model\\Generator::getSchemaNames<\/a>"],[0,9,"<a href=\"src\/generators\/model\/Generator.php.html#554\">yii\\gii\\generators\\model\\Generator::generateRelations<\/a>"],[0,5,"<a href=\"src\/generators\/model\/Generator.php.html#619\">yii\\gii\\generators\\model\\Generator::addInverseRelations<\/a>"],[0,4,"<a href=\"src\/generators\/model\/Generator.php.html#669\">yii\\gii\\generators\\model\\Generator::isHasManyRelation<\/a>"],[0,2,"<a href=\"src\/generators\/model\/Generator.php.html#690\">yii\\gii\\generators\\model\\Generator::generateRelationLink<\/a>"],[0,8,"<a href=\"src\/generators\/model\/Generator.php.html#706\">yii\\gii\\generators\\model\\Generator::checkJunctionTable<\/a>"],[0,11,"<a href=\"src\/generators\/model\/Generator.php.html#751\">yii\\gii\\generators\\model\\Generator::generateRelationName<\/a>"],[0,3,"<a href=\"src\/generators\/model\/Generator.php.html#802\">yii\\gii\\generators\\model\\Generator::validateDb<\/a>"],[0,2,"<a href=\"src\/generators\/model\/Generator.php.html#816\">yii\\gii\\generators\\model\\Generator::validateNamespace<\/a>"],[0,5,"<a href=\"src\/generators\/model\/Generator.php.html#829\">yii\\gii\\generators\\model\\Generator::validateModelClass<\/a>"],[0,6,"<a href=\"src\/generators\/model\/Generator.php.html#842\">yii\\gii\\generators\\model\\Generator::validateTableName<\/a>"],[0,9,"<a href=\"src\/generators\/model\/Generator.php.html#869\">yii\\gii\\generators\\model\\Generator::getTableNames<\/a>"],[0,4,"<a href=\"src\/generators\/model\/Generator.php.html#907\">yii\\gii\\generators\\model\\Generator::generateTableName<\/a>"],[0,14,"<a href=\"src\/generators\/model\/Generator.php.html#928\">yii\\gii\\generators\\model\\Generator::generateClassName<\/a>"],[0,3,"<a href=\"src\/generators\/model\/Generator.php.html#982\">yii\\gii\\generators\\model\\Generator::generateQueryClassName<\/a>"],[0,1,"<a href=\"src\/generators\/model\/Generator.php.html#994\">yii\\gii\\generators\\model\\Generator::getDbConnection<\/a>"],[0,2,"<a href=\"src\/generators\/model\/Generator.php.html#1004\">yii\\gii\\generators\\model\\Generator::getDbDriverName<\/a>"],[0,4,"<a href=\"src\/generators\/model\/Generator.php.html#1017\">yii\\gii\\generators\\model\\Generator::isColumnAutoIncremental<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#33\">yii\\gii\\generators\\module\\Generator::getName<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#41\">yii\\gii\\generators\\module\\Generator::getDescription<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#49\">yii\\gii\\generators\\module\\Generator::rules<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#63\">yii\\gii\\generators\\module\\Generator::attributeLabels<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#74\">yii\\gii\\generators\\module\\Generator::hints<\/a>"],[0,2,"<a href=\"src\/generators\/module\/Generator.php.html#85\">yii\\gii\\generators\\module\\Generator::successMessage<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#114\">yii\\gii\\generators\\module\\Generator::requiredTemplates<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#122\">yii\\gii\\generators\\module\\Generator::generate<\/a>"],[0,5,"<a href=\"src\/generators\/module\/Generator.php.html#145\">yii\\gii\\generators\\module\\Generator::validateModuleClass<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#158\">yii\\gii\\generators\\module\\Generator::getModulePath<\/a>"],[0,1,"<a href=\"src\/generators\/module\/Generator.php.html#166\">yii\\gii\\generators\\module\\Generator::getControllerNamespace<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
